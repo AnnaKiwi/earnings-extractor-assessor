@@ -1,1 +1,309 @@
-[]
+[
+  {
+    "cik": "1652044",
+    "company": "Alphabet",
+    "accession": "0001652044-26-000066",
+    "release_date": "2026-07-22",
+    "period_end": "2026-06-30",
+    "period_label": "quarter ended 30 June 2026",
+    "figures": {
+      "revenue": {
+        "value": 119796,
+        "unit": "USD millions",
+        "quote": "Revenues | $ | 96,428 | $ | 119,796"
+      },
+      "operating_income": {
+        "value": 40770,
+        "unit": "USD millions",
+        "quote": "Income from operations | 31,271 | 40,770"
+      },
+      "net_income": {
+        "value": 112193,
+        "unit": "USD millions",
+        "quote": "Net income | 28,196 | 112,193"
+      },
+      "diluted_eps": {
+        "value": 9.11,
+        "unit": "USD per share",
+        "quote": "Diluted net income per common share | $ | 2.31 | $ | 9.11"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "Alphabet revenues grew 24% year over year, with Google Cloud growth accelerating to 82%.",
+        "quote": "Q2 was an amazing quarter, with Alphabet revenues growing 24% year-over-year and Google Cloud revenues accelerating to 82% growth"
+      },
+      {
+        "id": "M2",
+        "topic": "profit",
+        "claim": "Operating income rose 30% and operating margin widened to 34%.",
+        "quote": "Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 34%."
+      },
+      {
+        "id": "M3",
+        "topic": "other",
+        "claim": "Other income was a net gain of $98.0 billion, mainly unrealized gains on equity securities.",
+        "quote": "Other income reflected a net gain of $98.0 billion, primarily the result of net unrealized gains on our equity securities."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls the quarter amazing and speaks of momentum across the board; no headwind is mentioned."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1652044-0001652044-26-000066.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/0001652044-26-000066-index.htm",
+    "saved_at": "2026-10-25T21:34:16+08:00"
+  },
+  {
+    "cik": "1018724",
+    "company": "Amazon",
+    "accession": "0001018724-26-000024",
+    "release_date": "2026-07-30",
+    "period_end": "2026-06-30",
+    "period_label": "quarter ended 30 June 2026",
+    "figures": {
+      "revenue": {
+        "value": 200606,
+        "unit": "USD millions",
+        "quote": "Total net sales | 167,702 | 200,606"
+      },
+      "operating_income": {
+        "value": 27461,
+        "unit": "USD millions",
+        "quote": "Operating income | 19,171 | 27,461"
+      },
+      "net_income": {
+        "value": 62647,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 18,164 | $ | 62,647"
+      },
+      "diluted_eps": {
+        "value": 5.75,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per share | $ | 1.68 | $ | 5.75"
+      }
+    },
+    "guidance": {
+      "text": "For the third quarter of 2026 Amazon expects net sales of $197.0 billion to $202.0 billion, growth of 9% to 12%.",
+      "quote": "Net sales are expected to be between $197.0 billion and $202.0 billion, or to grow between 9% and 12% compared with third quarter 2025."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "Net sales grew 20% year over year, and AWS sales grew 37%.",
+        "quote": "Net sales increased 20% to $200.6 billion in the second quarter, compared with $167.7 billion in second quarter 2025."
+      },
+      {
+        "id": "M2",
+        "topic": "profit",
+        "claim": "Operating income rose to $27.5 billion from $19.2 billion a year earlier.",
+        "quote": "Operating income increased to $27.5 billion in the second quarter, compared with $19.2 billion in second quarter 2025."
+      },
+      {
+        "id": "M3",
+        "topic": "profit",
+        "claim": "Net income of $62.6 billion includes $53.4 billion of non-operating other income, mainly from Anthropic investments.",
+        "quote": "Second quarter 2026 net income includes non-operating pre-tax other income of $53.4 billion, primarily from our investments in Anthropic."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO says AWS is booming and Advertising had another strong quarter; no headwind is mentioned."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1018724-0001018724-26-000024.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/0001018724-26-000024-index.htm",
+    "saved_at": "2026-10-25T21:34:16+08:00"
+  },
+  {
+    "cik": "1326801",
+    "company": "Meta Platforms",
+    "accession": "0001628280-26-066700",
+    "release_date": "2026-10-21",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 64601,
+        "unit": "USD millions",
+        "quote": "Revenue | $ | 64,601 | $ | 51,242"
+      },
+      "operating_income": {
+        "value": 12988,
+        "unit": "USD millions",
+        "quote": "Income from operations | $ | 12,988 | $ | 20,535"
+      },
+      "net_income": {
+        "value": 9860,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 9,860 | $ | 2,709"
+      },
+      "diluted_eps": {
+        "value": 3.83,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per share (EPS) | $ | 3.83 | $ | 1.05"
+      }
+    },
+    "guidance": {
+      "text": "Meta expects fourth quarter 2026 total revenue of $73-76 billion.",
+      "quote": "We expect fourth quarter 2026 total revenue to be in the range of $73-76 billion."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "Revenue grew 26% year over year on both a reported and constant currency basis.",
+        "quote": "Revenue was $64.60 billion, an increase of 26% year-over-year on both a reported and constant currency basis."
+      },
+      {
+        "id": "M2",
+        "topic": "costs",
+        "claim": "Costs and expenses rose 68%, including a $9.89 billion litigation charge.",
+        "quote": "Total costs and expenses were $51.61 billion, an increase of 68% year-over-year. This includes the litigation charge as discussed above."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "Meta expects to keep investing aggressively in the core business and AI next year.",
+        "quote": "we expect to continue investing aggressively to support both our core business and emerging AI initiatives."
+      },
+      {
+        "id": "M4",
+        "topic": "other",
+        "claim": "The CEO says the core business is strong and investments are paying off.",
+        "quote": "Our investments are paying off, the core business is strong, and we're seeing velocity across the board."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls the core business strong and says investments are paying off, though the release also notes a large legal charge."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1326801-0001628280-26-066700.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/0001628280-26-066700-index.htm",
+    "saved_at": "2026-10-25T21:34:16+08:00"
+  },
+  {
+    "cik": "36377",
+    "company": "FIRST HAWAIIAN, INC.",
+    "accession": "0001104659-26-118299",
+    "release_date": "2026-10-23",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": {
+        "value": 63.73,
+        "unit": "USD millions",
+        "quote": "Net income | 63,730 | 73,375"
+      },
+      "diluted_eps": {
+        "value": 0.52,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per share | 0.52 | 0.60"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO is pleased with solid earnings and customer trust this quarter.",
+        "quote": "I’m pleased with the solid earnings we delivered this quarter and the continued trust our customers place in us"
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "Net interest income rose $3.1 million from the prior quarter to $174.1 million.",
+        "quote": "Net interest income for the third quarter of 2026 was $174.1 million, an increase of $3.1 million compared to $171.0 million for the prior quarter."
+      },
+      {
+        "id": "M3",
+        "topic": "costs",
+        "claim": "Noninterest expense was $160.0 million, including merger costs and a tax-settlement expense.",
+        "quote": "Noninterest expense in the third quarter included $6.7 million of merger-related costs and a $24.3 million noninterest expense from an agreement to settle tax liabilities resulting from the 2016 corporate reorganization."
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "The CEO calls earnings solid, while the release reports a higher credit loss provision and a one-off tax settlement."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/36377-0001104659-26-118299.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/36377/000110465926118299/fhb-ex99d1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/36377/000110465926118299/0001104659-26-118299-index.htm",
+    "saved_at": "2026-10-25T21:34:16+08:00"
+  },
+  {
+    "cik": "1529113",
+    "company": "XTI Aerospace, Inc.",
+    "accession": "0001213900-26-111088",
+    "release_date": "2026-10-20",
+    "period_end": "2026-06-30",
+    "period_label": "quarter ended 30 June 2026",
+    "figures": {
+      "revenue": {
+        "value": 32.449,
+        "unit": "USD millions",
+        "quote": "Revenues | $ | 32,449 | $ | — | $ | 60,145"
+      },
+      "operating_income": {
+        "value": -9.082,
+        "unit": "USD millions",
+        "quote": "Loss from Operations | (9,082 | ) | (5,796 | )"
+      },
+      "net_income": {
+        "value": -2.754,
+        "unit": "USD millions",
+        "quote": "Net Loss Attributable to XTI Aerospace, Inc. | (2,754 | ) | (20,858 | )"
+      },
+      "diluted_eps": {
+        "value": -0.07,
+        "unit": "USD per share",
+        "quote": "Net loss per share | $ | (0.07 | ) | $ | (2.93 | )"
+      }
+    },
+    "guidance": {
+      "text": "For full year 2026 XTI expects revenue of $125 million to $130 million.",
+      "quote": "Full year 2026 revenue of $125 million to $130 million"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The interim CEO says demand for enterprise drone solutions continues to build.",
+        "quote": "Demand for enterprise drone solutions continues to build across enterprise and government buyers"
+      },
+      {
+        "id": "M2",
+        "topic": "costs",
+        "claim": "Management says it is spending carefully and keeping expenses disciplined.",
+        "quote": "My focus is on building a disciplined organization, spending carefully, and executing consistently."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "Management takes a prudent view of the full-year outlook while expecting improved performance.",
+        "quote": "while we are taking a prudent view towards our full-year outlook, we remain confident in our ability to drive improved performance and deliver sustainable growth."
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "Management is confident about demand and growth but calls its full-year view prudent and cites tariff and regulatory pressure."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1529113-0001213900-26-111088.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1529113/000121390026111088/ea030923001ex99-1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1529113/000121390026111088/0001213900-26-111088-index.htm",
+    "saved_at": "2026-10-25T21:34:16+08:00"
+  }
+]
