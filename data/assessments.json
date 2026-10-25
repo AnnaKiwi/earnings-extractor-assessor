@@ -1049,5 +1049,213 @@
     "filing_found": true,
     "recheck": false,
     "assessed_at": "2026-10-25T21:39:53+08:00"
+  },
+  {
+    "accession": "0001104659-26-118299",
+    "cik": "36377",
+    "company": "FIRST HAWAIIAN, INC.",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty; the SEC holds no quarterly revenue figure for this bank, so there is nothing to check."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty; the SEC holds no quarterly operating income figure for this bank, so there is nothing to check."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "No 10-Q figure yet for the quarter to 2026-09-30. The quote 'Net income | 63,730' is in the release and holds 63.73 USD millions."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "No 10-Q figure yet for the quarter to 2026-09-30. The quote 'Diluted earnings per share | 0.52' is in the release and holds 0.52."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "Both saved figures have quotes in the release that hold their numbers; the 10-Q check is still to come. Claims M2 and M3 match the release tables."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "Net income and EPS are present. Revenue and operating income are empty, but the release gives neither as such for a bank. No guidance given."
+      },
+      "S3": {
+        "score": 4,
+        "reason": "Net income and EPS can be used as they stand; revenue and operating income are blank, so the analyst must read net interest income by hand."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": "63.73 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "There is no filed figure yet for the quarter ending 2026-09-30 under NetIncomeLoss. The 10-Q (or, for the quarter that ends the fiscal year, the 10-K) may not be filed yet; EPS for that last quarter is never filed on its own; or the company tags this figure another way."
+      },
+      "diluted_eps": {
+        "extracted": "0.52 USD per share",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "There is no filed figure yet for the quarter ending 2026-09-30 under EarningsPerShareDiluted. The 10-Q (or, for the quarter that ends the fiscal year, the 10-K) may not be filed yet; EPS for that last quarter is never filed on its own; or the company tags this figure another way."
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "does not match",
+        "reason": "Net income fell 13.7% on a year ago (63.73 vs 73.84) and 13.1% on the previous quarter (73.375); EPS fell to 0.52 from 0.59 and 0.60. The claim is not about adjusted figures."
+      },
+      "M2": {
+        "verdict": "matches",
+        "reason": "Tested on the release's own table: net interest income 174,104 against 170,993 in the prior quarter, a rise of 3,111 (USD thousands), as the quote says."
+      },
+      "M3": {
+        "verdict": "matches",
+        "reason": "Tested on the release's own table: total noninterest expense 160,047 (USD thousands), up from 130,445; the quote names the 6.7 and 24.3 million items."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "Balanced fits: net income and EPS fell on both comparisons, while the CEO calls earnings solid; provision rose to 20.3 million from 5.6 million."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": 63.73,
+        "this_quarter_from": "release",
+        "year_ago": 73.84,
+        "change_year": -13.7,
+        "previous_quarter": 73.375,
+        "change_quarter": -13.1
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": 0.52,
+        "this_quarter_from": "release",
+        "year_ago": 0.59,
+        "change_year": -11.9,
+        "previous_quarter": 0.6,
+        "change_quarter": -13.3
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO is pleased with solid earnings and customer trust this quarter.",
+        "quote": "I’m pleased with the solid earnings we delivered this quarter and the continued trust our customers place in us",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "Net interest income rose $3.1 million from the prior quarter to $174.1 million.",
+        "quote": "Net interest income for the third quarter of 2026 was $174.1 million, an increase of $3.1 million compared to $171.0 million for the prior quarter.",
+        "quote_found": true
+      },
+      {
+        "id": "M3",
+        "topic": "costs",
+        "claim": "Noninterest expense was $160.0 million, including merger costs and a tax-settlement expense.",
+        "quote": "Noninterest expense in the third quarter included $6.7 million of merger-related costs and a $24.3 million noninterest expense from an agreement to settle tax liabilities resulting from the 2016 corporate reorganization.",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "balanced",
+      "reason": "The CEO calls earnings solid, while the release reports a higher credit loss provision and a one-off tax settlement."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-10-26T06:37:49+08:00"
   }
 ]
