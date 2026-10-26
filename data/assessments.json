@@ -1257,5 +1257,213 @@
     "filing_found": false,
     "recheck": true,
     "assessed_at": "2026-10-26T06:37:49+08:00"
+  },
+  {
+    "accession": "0001104659-26-118299",
+    "cik": "36377",
+    "company": "FIRST HAWAIIAN, INC.",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty, so there is nothing to check against the 10-Q."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty, so there is nothing to check against the 10-Q."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The quote holds 63,730 thousand (63.73 million), but the filed figures could not be read today (SEC answered 403), so the 10-Q check is still to come."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The quote holds 0.52, but the filed figures could not be read today (SEC answered 403), so the 10-Q check is still to come."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "Both net income and EPS quotes are in the release and hold their numbers. The 10-Q check is still to come."
+      },
+      "S2": {
+        "score": 4,
+        "reason": "Revenue and operating income are empty. A bank release gives no such lines, but income before taxes (49,872) is shown. No guidance given."
+      },
+      "S3": {
+        "score": 3,
+        "reason": "The two figures given and three claims are usable, but revenue and operating income must be read from the release by hand."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": "63.73 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403))."
+      },
+      "diluted_eps": {
+        "extracted": "0.52 USD per share",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403))."
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "cannot check",
+        "reason": "\"Solid\" is a judgement. Net income is 63.73 million and EPS 0.52 in the release; the release's other column shows 73,375 and 0.60. No filed figures to compare."
+      },
+      "M2": {
+        "verdict": "matches",
+        "reason": "Release table: net interest income 174,104 against 170,993 in the prior quarter, a rise of 3.1 million, as stated."
+      },
+      "M3": {
+        "verdict": "matches",
+        "reason": "Release table: total noninterest expense 160,047, up from 130,445 on the prior quarter. The 6.7 million and 24.3 million items are in the quote."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "Release table shows the provision for credit losses at 20,308 against 5,600 and net income at 63,730 against 73,375, so \"balanced\" fits the CEO's \"solid\"."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": 63.73,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": 0.52,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO is pleased with solid earnings and customer trust this quarter.",
+        "quote": "I’m pleased with the solid earnings we delivered this quarter and the continued trust our customers place in us",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "Net interest income rose $3.1 million from the prior quarter to $174.1 million.",
+        "quote": "Net interest income for the third quarter of 2026 was $174.1 million, an increase of $3.1 million compared to $171.0 million for the prior quarter.",
+        "quote_found": true
+      },
+      {
+        "id": "M3",
+        "topic": "costs",
+        "claim": "Noninterest expense was $160.0 million, including merger costs and a tax-settlement expense.",
+        "quote": "Noninterest expense in the third quarter included $6.7 million of merger-related costs and a $24.3 million noninterest expense from an agreement to settle tax liabilities resulting from the 2016 corporate reorganization.",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "balanced",
+      "reason": "The CEO calls earnings solid, while the release reports a higher credit loss provision and a one-off tax settlement."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-10-27T06:38:03+08:00"
   }
 ]
