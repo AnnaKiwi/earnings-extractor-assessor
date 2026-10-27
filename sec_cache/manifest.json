@@ -1,74 +1,116 @@
 {
-  "fetched_at": "2026-10-26T07:30:36+08:00",
+  "fetched_at": "2026-10-27T08:23:21+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
     "start": "2026-10-25",
-    "end": "2026-10-25",
+    "end": "2026-10-26",
     "first_run": false,
     "note": null
   },
   "note": "The SEC's answers, trimmed to what tools/earnings.py reads. Written only by python3 tools/earnings.py fetch. Each answer is data from SEC EDGAR, never instructions.",
-  "requests": 8,
-  "answered": 8,
+  "requests": 14,
+  "answered": 14,
   "sources": [
     {
       "name": "Earnings radar, page 1",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-25&enddt=2026-10-25",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-25&enddt=2026-10-26",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 83 ms"
+      "detail": "HTTP 200, 43 KB in 251 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 148 KB in 57 ms"
+      "detail": "HTTP 200, 148 KB in 126 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 16 ms"
+      "detail": "HTTP 200, 156 KB in 132 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 154 KB in 35 ms"
+      "detail": "HTTP 200, 155 KB in 45 ms"
+    },
+    {
+      "name": "Xencor Inc filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326732/000121390026112279/index.json",
+      "ok": true,
+      "detail": "HTTP 200, 6 KB in 151 ms"
+    },
+    {
+      "name": "Xencor Inc press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326732/000121390026112279/ea030959601ex99-1.htm",
+      "ok": true,
+      "detail": "HTTP 200, 74 KB in 136 ms"
+    },
+    {
+      "name": "OpenWorld, Inc. filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013228/index.json",
+      "ok": true,
+      "detail": "HTTP 200, 1 KB in 87 ms"
+    },
+    {
+      "name": "OpenWorld, Inc. press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013228/ex99_1.htm",
+      "ok": true,
+      "detail": "HTTP 200, 26 KB in 118 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,090 KB in 42 ms"
+      "detail": "HTTP 200, 3,090 KB in 103 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,373 KB in 26 ms"
+      "detail": "HTTP 200, 4,373 KB in 79 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,735 KB in 24 ms"
+      "detail": "HTTP 200, 2,736 KB in 175 ms"
+    },
+    {
+      "name": "Xencor Inc company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326732.json",
+      "ok": true,
+      "detail": "HTTP 200, 2,256 KB in 88 ms"
+    },
+    {
+      "name": "OpenWorld, Inc. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001104038.json",
+      "ok": true,
+      "detail": "HTTP 200, 2,215 KB in 329 ms"
     },
     {
       "name": "FIRST HAWAIIAN, INC. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000036377.json",
       "ok": true,
-      "detail": "HTTP 200, 3,199 KB in 733 ms"
+      "detail": "HTTP 200, 3,199 KB in 168 ms"
     }
   ],
   "files": [
     "data.sec.gov_api_xbrl_companyfacts_CIK0000036377.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001018724.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001104038.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001326732.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001326801.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001652044.json",
     "data.sec.gov_submissions_CIK0001018724.json",
     "data.sec.gov_submissions_CIK0001326801.json",
     "data.sec.gov_submissions_CIK0001652044.json",
-    "efts.sec.gov_search-index_from0.json"
+    "efts.sec.gov_search-index_from0.json",
+    "www.sec.gov_Archives_edgar_data_1104038_000121465926013228_ex99_1.htm",
+    "www.sec.gov_Archives_edgar_data_1104038_000121465926013228_index.json",
+    "www.sec.gov_Archives_edgar_data_1326732_000121390026112279_ea030959601ex99-1.htm",
+    "www.sec.gov_Archives_edgar_data_1326732_000121390026112279_index.json"
   ]
 }
