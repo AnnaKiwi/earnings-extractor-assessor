@@ -305,5 +305,69 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/1529113/000121390026111088/ea030923001ex99-1.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/1529113/000121390026111088/0001213900-26-111088-index.htm",
     "saved_at": "2026-10-25T21:34:16+08:00"
+  },
+  {
+    "cik": "1326732",
+    "company": "Xencor Inc",
+    "accession": "0001213900-26-112279",
+    "release_date": "2026-10-26",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": null,
+      "diluted_eps": null
+    },
+    "guidance": null,
+    "management": [],
+    "tone": null,
+    "picked_from_radar": true,
+    "source_file": "sources/1326732-0001213900-26-112279.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1326732/000121390026112279/ea030959601ex99-1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326732/000121390026112279/0001213900-26-112279-index.htm",
+    "saved_at": "2026-10-27T12:16:58+08:00"
+  },
+  {
+    "cik": "1104038",
+    "company": "OpenWorld, Inc.",
+    "accession": "0001214659-26-013228",
+    "release_date": "2026-10-26",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": {
+        "value": -10.0,
+        "unit": "USD millions",
+        "quote": "GAAP net loss | Approx. $(10.0)"
+      },
+      "diluted_eps": null
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says the estimated third-quarter results show the strength of the business model.",
+        "quote": "our estimated third-quarter financial results demonstrate the strength of OpenWorld’s business model as we move forward as a public company"
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO expects consistent, significant growth and adoption of real-world assets.",
+        "quote": "we are confident that the Company has the right strategies to benefit from our expectation of consistent significant growth and adoption of RWAs globally"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls the estimates a strong indication of progress and says he is confident about growth."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1104038-0001214659-26-013228.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013228/ex99_1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013228/0001214659-26-013228-index.htm",
+    "saved_at": "2026-10-27T12:16:58+08:00"
   }
 ]
