@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T08:28:37+08:00",
+  "fetched_at": "2026-10-28T08:42:35+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
@@ -16,115 +16,115 @@
       "name": "Earnings radar, page 1",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-27",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 347 ms"
+      "detail": "HTTP 200, 60 KB in 142 ms"
     },
     {
       "name": "Earnings radar, page 2",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-27&from=100",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 19 ms"
+      "detail": "HTTP 200, 60 KB in 77 ms"
     },
     {
       "name": "Earnings radar, page 3",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-27&from=200",
       "ok": true,
-      "detail": "HTTP 200, 30 KB in 48 ms"
+      "detail": "HTTP 200, 30 KB in 96 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 148 KB in 67 ms"
+      "detail": "HTTP 200, 148 KB in 31 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 17 ms"
+      "detail": "HTTP 200, 156 KB in 23 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 155 KB in 21 ms"
+      "detail": "HTTP 200, 155 KB in 20 ms"
     },
     {
       "name": "Pulmonx Corp filing index",
       "url": "https://www.sec.gov/Archives/edgar/data/1127537/000112753726000042/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 81 ms"
+      "detail": "HTTP 200, 1 KB in 89 ms"
     },
     {
       "name": "Pulmonx Corp filing index page",
       "url": "https://www.sec.gov/Archives/edgar/data/1127537/000112753726000042/0001127537-26-000042-index.htm",
       "ok": true,
-      "detail": "HTTP 200, 10 KB in 77 ms"
+      "detail": "HTTP 200, 10 KB in 60 ms"
     },
     {
       "name": "Pulmonx Corp press release",
       "url": "https://www.sec.gov/Archives/edgar/data/1127537/000112753726000042/lung3q26earningsrelease102.htm",
       "ok": true,
-      "detail": "HTTP 200, 191 KB in 62 ms"
+      "detail": "HTTP 200, 191 KB in 36 ms"
     },
     {
       "name": "CORNING INC /NY filing index",
       "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000273/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 45 ms"
+      "detail": "HTTP 200, 1 KB in 27 ms"
     },
     {
       "name": "CORNING INC /NY press release",
       "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000273/glw-20261027xex99xq32026.htm",
       "ok": true,
-      "detail": "HTTP 200, 706 KB in 81 ms"
+      "detail": "HTTP 200, 706 KB in 42 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,090 KB in 42 ms"
+      "detail": "HTTP 200, 3,090 KB in 106 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,373 KB in 26 ms"
+      "detail": "HTTP 200, 4,373 KB in 79 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,736 KB in 21 ms"
+      "detail": "HTTP 200, 2,736 KB in 70 ms"
     },
     {
       "name": "Pulmonx Corp company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001127537.json",
       "ok": true,
-      "detail": "HTTP 200, 1,529 KB in 86 ms"
+      "detail": "HTTP 200, 1,529 KB in 68 ms"
     },
     {
       "name": "CORNING INC /NY company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000024741.json",
       "ok": true,
-      "detail": "HTTP 200, 4,105 KB in 53 ms"
+      "detail": "HTTP 200, 4,105 KB in 80 ms"
     },
     {
       "name": "FIRST HAWAIIAN, INC. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000036377.json",
       "ok": true,
-      "detail": "HTTP 200, 3,199 KB in 337 ms"
+      "detail": "HTTP 200, 3,199 KB in 309 ms"
     },
     {
       "name": "Xencor Inc company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326732.json",
       "ok": true,
-      "detail": "HTTP 200, 2,256 KB in 126 ms"
+      "detail": "HTTP 200, 2,256 KB in 87 ms"
     },
     {
       "name": "OpenWorld, Inc. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001104038.json",
       "ok": true,
-      "detail": "HTTP 200, 2,215 KB in 268 ms"
+      "detail": "HTTP 200, 2,215 KB in 272 ms"
     }
   ],
   "files": [
