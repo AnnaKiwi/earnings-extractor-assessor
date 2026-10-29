@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T08:51:43+08:00",
+  "fetched_at": "2026-10-29T09:11:48+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
@@ -16,133 +16,133 @@
       "name": "Earnings radar, page 1",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-28",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 213 ms"
+      "detail": "HTTP 200, 60 KB in 124 ms"
     },
     {
       "name": "Earnings radar, page 2",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-28&from=100",
       "ok": true,
-      "detail": "HTTP 200, 59 KB in 54 ms"
+      "detail": "HTTP 200, 59 KB in 227 ms"
     },
     {
       "name": "Earnings radar, page 3",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-28&from=200",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 53 ms"
+      "detail": "HTTP 200, 60 KB in 273 ms"
     },
     {
       "name": "Earnings radar, page 4",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-28&from=300",
       "ok": true,
-      "detail": "HTTP 200, 61 KB in 89 ms"
+      "detail": "HTTP 200, 61 KB in 369 ms"
     },
     {
       "name": "Earnings radar, page 5",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-28&from=400",
       "ok": true,
-      "detail": "HTTP 200, 54 KB in 86 ms"
+      "detail": "HTTP 200, 54 KB in 326 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 149 KB in 158 ms"
+      "detail": "HTTP 200, 149 KB in 46 ms"
     },
     {
       "name": "Alphabet filing index",
       "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 124 ms"
+      "detail": "HTTP 200, 1 KB in 59 ms"
     },
     {
       "name": "Alphabet press release",
       "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
       "ok": true,
-      "detail": "HTTP 200, 361 KB in 115 ms"
+      "detail": "HTTP 200, 361 KB in 61 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 120 ms"
+      "detail": "HTTP 200, 156 KB in 37 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 66 ms"
+      "detail": "HTTP 200, 156 KB in 32 ms"
     },
     {
       "name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/ filing index",
       "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253726000039/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 102 ms"
+      "detail": "HTTP 200, 1 KB in 38 ms"
     },
     {
       "name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/ press release",
       "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253726000039/fcf-ex991_20261027x8k.htm",
       "ok": true,
-      "detail": "HTTP 200, 772 KB in 444 ms"
+      "detail": "HTTP 200, 772 KB in 52 ms"
     },
     {
       "name": "ONESPAWORLD HOLDINGS Ltd filing index",
       "url": "https://www.sec.gov/Archives/edgar/data/1758488/000119312526435063/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 126 ms"
+      "detail": "HTTP 200, 1 KB in 46 ms"
     },
     {
       "name": "ONESPAWORLD HOLDINGS Ltd press release",
       "url": "https://www.sec.gov/Archives/edgar/data/1758488/000119312526435063/osw-ex99_1.htm",
       "ok": true,
-      "detail": "HTTP 200, 587 KB in 146 ms"
+      "detail": "HTTP 200, 587 KB in 361 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,090 KB in 126 ms"
+      "detail": "HTTP 200, 3,090 KB in 66 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,373 KB in 109 ms"
+      "detail": "HTTP 200, 4,373 KB in 52 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,737 KB in 122 ms"
+      "detail": "HTTP 200, 2,737 KB in 77 ms"
     },
     {
       "name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/ company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000712537.json",
       "ok": true,
-      "detail": "HTTP 200, 5,686 KB in 127 ms"
+      "detail": "HTTP 200, 5,686 KB in 559 ms"
     },
     {
       "name": "ONESPAWORLD HOLDINGS Ltd company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001758488.json",
       "ok": true,
-      "detail": "HTTP 200, 1,401 KB in 218 ms"
+      "detail": "HTTP 200, 1,401 KB in 238 ms"
     },
     {
       "name": "FIRST HAWAIIAN, INC. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000036377.json",
       "ok": true,
-      "detail": "HTTP 200, 3,199 KB in 244 ms"
+      "detail": "HTTP 200, 3,199 KB in 316 ms"
     },
     {
       "name": "Xencor Inc company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326732.json",
       "ok": true,
-      "detail": "HTTP 200, 2,256 KB in 243 ms"
+      "detail": "HTTP 200, 2,256 KB in 280 ms"
     },
     {
       "name": "OpenWorld, Inc. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001104038.json",
       "ok": true,
-      "detail": "HTTP 200, 2,215 KB in 297 ms"
+      "detail": "HTTP 200, 2,215 KB in 225 ms"
     }
   ],
   "files": [
