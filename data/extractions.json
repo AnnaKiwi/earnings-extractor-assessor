@@ -369,5 +369,215 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013228/ex99_1.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013228/0001214659-26-013228-index.htm",
     "saved_at": "2026-10-27T12:16:58+08:00"
+  },
+  {
+    "cik": "1652044",
+    "company": "Alphabet",
+    "accession": "0001652044-26-000080",
+    "release_date": "2026-10-28",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 127577,
+        "unit": "USD millions",
+        "quote": "Revenues | $ | 102,346 | $ | 127,577"
+      },
+      "operating_income": {
+        "value": 40576,
+        "unit": "USD millions",
+        "quote": "Income from operations | 31,228 | 40,576"
+      },
+      "net_income": {
+        "value": 26468,
+        "unit": "USD millions",
+        "quote": "Net income | 34,979 | 26,468"
+      },
+      "diluted_eps": {
+        "value": 2.12,
+        "unit": "USD per share",
+        "quote": "Diluted net income per common share | $ | 2.87 | $ | 2.12"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "Management says Alphabet revenues grew 25% year over year.",
+        "quote": "Our deep full stack approach is driving momentum across the business, with Alphabet revenues growing 25% year-over year."
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "Management says Google Cloud revenues grew 103% on demand for AI infrastructure and solutions.",
+        "quote": "Google Cloud revenues grew 103%, powered by huge demand for our AI infrastructure and AI solutions."
+      },
+      {
+        "id": "M3",
+        "topic": "margins",
+        "claim": "Management says operating income rose 30% and operating margin was 31.8%.",
+        "quote": "Consolidated Alphabet operating income increased 30% and operating margin was 31.8%."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls it a strong quarter with momentum across the business and big opportunities ahead."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1652044-0001652044-26-000080.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/0001652044-26-000080-index.htm",
+    "saved_at": "2026-11-04T06:07:52+08:00"
+  },
+  {
+    "cik": "1018724",
+    "company": "Amazon",
+    "accession": "0001018724-26-000038",
+    "release_date": "2026-10-29",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 201944,
+        "unit": "USD millions",
+        "quote": "Total net sales | 180,169 | 201,944"
+      },
+      "operating_income": {
+        "value": 28076,
+        "unit": "USD millions",
+        "quote": "Operating income | 17,422 | 28,076"
+      },
+      "net_income": {
+        "value": 20685,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 21,187 | $ | 20,685"
+      },
+      "diluted_eps": {
+        "value": 1.89,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per share | $ | 1.95 | $ | 1.89"
+      }
+    },
+    "guidance": {
+      "text": "For the fourth quarter of 2026, Amazon expects net sales of $240.0 billion to $247.0 billion, growth of 12% to 16%.",
+      "quote": "Net sales are expected to be between $240.0 billion and $247.0 billion, or to grow between 12% and 16% compared with fourth quarter 2025."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says AWS revenue grew over 39% year over year and expects growth above 40% in 2027 and 2028.",
+        "quote": "Our AWS investment in functionality and infrastructure is working, with over 39% year-over-year revenue growth in Q3 ($184 billion revenue run rate) and projected revenue growth rates of over 40% both in 2027 and in 2028,"
+      },
+      {
+        "id": "M2",
+        "topic": "margins",
+        "claim": "The release says operating margin was 13.9%, Amazon's highest ever.",
+        "quote": "Operating income was $28.1 billion and operating margin was 13.9%—Amazon’s highest operating margin ever"
+      },
+      {
+        "id": "M3",
+        "topic": "profit",
+        "claim": "The release says net income fell to $20.7 billion because of large investment gains in the prior-year quarter.",
+        "quote": "Net income decreased to $20.7 billion in the third quarter, or $1.89 per diluted share, compared with $21.2 billion, or $1.95 per diluted share, in third quarter 2025."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO says the AWS investment is working and retail share and margins are improving."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1018724-0001018724-26-000038.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/0001018724-26-000038-index.htm",
+    "saved_at": "2026-11-04T06:07:52+08:00"
+  },
+  {
+    "cik": "1835632",
+    "company": "Marvell Technology, Inc.",
+    "accession": "0001193125-26-442714",
+    "release_date": "2026-11-02",
+    "period_end": "2026-10-31",
+    "period_label": "quarter ended 31 October 2026 (preliminary revenue only)",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": null,
+      "diluted_eps": null
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "outlook",
+        "claim": "The CEO says the planned Lumentum combination answers a shift towards optical connectivity in AI infrastructure.",
+        "quote": "AI infrastructure is undergoing a fundamental architectural shift toward optical connectivity, creating an opportunity that comes along once in a generation,"
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "The release says preliminary third-quarter revenue is in line with guidance, with a narrower range.",
+        "quote": "Marvell today reported preliminary revenue for the third quarter of fiscal 2027 consistent with previously provided guidance, maintaining the midpoint of its prior guidance while narrowing the expected range to plus or minus 2%"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls the planned combination a once-in-a-generation opportunity."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1835632-0001193125-26-442714.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/d81187dex991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/0001193125-26-442714-index.htm",
+    "saved_at": "2026-11-04T06:07:52+08:00"
+  },
+  {
+    "cik": "1057877",
+    "company": "IDACORP INC",
+    "accession": "0001057877-26-000138",
+    "release_date": "2026-10-29",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": {
+        "value": 160.213,
+        "unit": "USD millions",
+        "quote": "Net income attributable to IDACORP, Inc. | $ | 160,213 | $ | 124,437"
+      },
+      "diluted_eps": {
+        "value": 2.73,
+        "unit": "USD per share",
+        "quote": "IDACORP, Inc. earnings per diluted share | $ | 2.73 | $ | 2.26"
+      }
+    },
+    "guidance": {
+      "text": "IDACORP raised its 2026 earnings guidance to $6.40 to $6.50 per diluted share, assuming normal weather.",
+      "quote": "IDACORP is increasing its previously reported full-year 2026 earnings guidance to the range of $6.40 to $6.50 per diluted share"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO says strong results came from customer growth and extra revenue from base rates and large contract customers.",
+        "quote": "Strong third quarter results were driven by continued customer growth and additional revenues from current base rates and from large contract customers as they continue to ramp-up operations,"
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The release says full-year 2026 earnings guidance was increased.",
+        "quote": "IDACORP is increasing its previously reported full-year 2026 earnings guidance to the range of $6.40 to $6.50 per diluted share"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls the results strong and the company raised its full-year guidance."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1057877-0001057877-26-000138.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1057877/000105787726000138/exhibit991-october292026.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1057877/000105787726000138/0001057877-26-000138-index.htm",
+    "saved_at": "2026-11-04T06:07:52+08:00"
   }
 ]
