@@ -579,5 +579,131 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/1057877/000105787726000138/exhibit991-october292026.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/1057877/000105787726000138/0001057877-26-000138-index.htm",
     "saved_at": "2026-11-04T06:07:52+08:00"
+  },
+  {
+    "cik": "1993004",
+    "company": "NorthWestern Energy Group, Inc.",
+    "accession": "0001993004-26-000060",
+    "release_date": "2026-11-05",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 423.8,
+        "unit": "USD millions",
+        "quote": "Total Revenues | 423.8"
+      },
+      "operating_income": {
+        "value": 74.6,
+        "unit": "USD millions",
+        "quote": "Operating income | 74.6"
+      },
+      "net_income": {
+        "value": 30.7,
+        "unit": "USD millions",
+        "quote": "Net Income | $ | 30.7"
+      },
+      "diluted_eps": {
+        "value": 0.5,
+        "unit": "USD per share",
+        "quote": "Diluted Earnings per Average Common Share | $ | 0.50"
+      }
+    },
+    "guidance": {
+      "text": "NorthWestern affirms its 2026 non-GAAP earnings guidance of $3.68 to $3.83 per diluted share, on a standalone basis.",
+      "quote": "We are affirming our 2026 non-GAAP earnings guidance of $3.68 - $3.83 per diluted share."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO says the costs of the extra Colstrip ownership have created a temporary earnings headwind.",
+        "quote": "Although the costs associated with our incremental ownership in Colstrip have created a temporary earnings headwind, this strategic decision helps ensure reliable energy for our customers and support economic development in Montana."
+      },
+      {
+        "id": "M2",
+        "topic": "profit",
+        "claim": "Net income fell from $38.2 million to $30.7 million, mainly because of the Colstrip net loss, depreciation and interest expense.",
+        "quote": "This decrease was primarily due to $6.1 million of net loss associated with our additional ownership interests in Colstrip Units 3 and 4, depreciation expense, and interest expense."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CEO looks forward to completing the merger with Black Hills, subject to approval by the Montana Public Service Commission.",
+        "quote": "Looking ahead, we are excited about the prospect of completing our merger with Black Hills and beginning the next chapter for our combined company, subject to final, satisfactory approval from the Montana Public Service Commission"
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "The CEO calls the quarter busy and productive and is excited about the merger, but names a temporary earnings headwind from Colstrip costs."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1993004-0001993004-26-000060.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000060/ex991pressreleaseq32026.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000060/0001993004-26-000060-index.htm",
+    "saved_at": "2026-11-11T06:13:21+08:00"
+  },
+  {
+    "cik": "98362",
+    "company": "TIMKEN CO",
+    "accession": "0000098362-26-000055",
+    "release_date": "2026-11-04",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 1211.4,
+        "unit": "USD millions",
+        "quote": "Net sales | $ | 1,211.4"
+      },
+      "operating_income": {
+        "value": 166.0,
+        "unit": "USD millions",
+        "quote": "Operating Income | 166.0"
+      },
+      "net_income": {
+        "value": 93.8,
+        "unit": "USD millions",
+        "quote": "Net Income Attributable to The Timken Company | $ | 93.8"
+      },
+      "diluted_eps": {
+        "value": 1.34,
+        "unit": "USD per share",
+        "quote": "Diluted Earnings per share | $ | 1.34"
+      }
+    },
+    "guidance": {
+      "text": "Timken raises its 2026 outlook and now expects earnings per diluted share of $4.05 to $4.20, and adjusted EPS of $6.35 to $6.50.",
+      "quote": "Timken is increasing its 2026 outlook, with full-year earnings per diluted share now forecasted to be in the range of $4.05 to $4.20 and adjusted earnings per diluted share to the range of $6.35 to $6.50."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO says Timken delivered double-digit earnings growth on last year and generated significant cash flow.",
+        "quote": "In the third quarter, we delivered double-digit earnings growth versus last year and generated significant cash flow,"
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "Sales rose 4.7 percent, mainly from higher Industrial Motion volumes, the Bijur Delimon acquisition and higher pricing.",
+        "quote": "The increase was driven primarily by higher volumes in the Industrial Motion segment, revenue from the Bijur Delimon acquisition and higher pricing."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "For 2027, the CEO currently expects organic sales to rise by a mid-single-digit percentage on 2026.",
+        "quote": "While it is too early to provide a formal outlook for 2027, we currently expect organic sales to increase mid-single digits compared to 2026 driven by incremental growth from our strategic initiatives and further positive momentum across our industrial markets."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO cites double-digit earnings growth, strong cash flow and confidence in the 2026 outlook, and expects stronger performance next year."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/98362-0000098362-26-000055.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/98362/000009836226000055/tkrq32026exhibit991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/98362/000009836226000055/0000098362-26-000055-index.htm",
+    "saved_at": "2026-11-11T06:13:21+08:00"
   }
 ]
