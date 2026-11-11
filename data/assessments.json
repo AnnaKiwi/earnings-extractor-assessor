@@ -11766,5 +11766,399 @@
     "filing_found": true,
     "recheck": false,
     "assessed_at": "2026-11-11T06:37:44+08:00"
+  },
+  {
+    "accession": "0001214659-26-013228",
+    "cik": "1104038",
+    "company": "OpenWorld, Inc.",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty (null). The release gives a range of $6.9 million to $7.2 million, so it could have been saved."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty (null); the release does not give it."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The quote 'GAAP net loss | Approx. $(10.0)' is in the release and holds -10 USD millions, but the filed figures could not be read today (data.sec.gov answered 403)."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The watcher left diluted EPS empty (null); the release does not give it."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "The one extracted figure, net loss -10 USD millions, has its quote in the release and holds the number. The 10-Q check is still to come."
+      },
+      "S2": {
+        "score": 4,
+        "reason": "Revenue is empty although the release gives a range of $6.9 million to $7.2 million; the other empty figures are not given. Guidance is null."
+      },
+      "S3": {
+        "score": 3,
+        "reason": "Net loss is usable, but the analyst must open the release for the revenue range and the one-off costs of about 11.9 million."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": "-10 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403))."
+      },
+      "diluted_eps": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "cannot check",
+        "reason": "The filed figures could not be read today, so no quarter can be compared. The release gives a net loss of about 10.0 million, including about 11.9 million of one-off costs, and adjusted EBITDA of 1.7 to 2.0 million."
+      },
+      "M2": {
+        "verdict": "cannot check",
+        "reason": "An outlook on real-world-asset adoption is about the future, and the filed figures could not be read today, so the numbers cannot test the trend."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "On the release's own figures: the net loss of about 10.0 million includes about 11.9 million of one-off costs, and adjusted EBITDA is 1.7 to 2.0 million, which fits a positive tone."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": -10.0,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says the estimated third-quarter results show the strength of the business model.",
+        "quote": "our estimated third-quarter financial results demonstrate the strength of OpenWorld’s business model as we move forward as a public company",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO expects consistent, significant growth and adoption of real-world assets.",
+        "quote": "we are confident that the Company has the right strategies to benefit from our expectation of consistent significant growth and adoption of RWAs globally",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "positive",
+      "reason": "The CEO calls the estimates a strong indication of progress and says he is confident about growth."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-11-12T06:38:26+08:00"
+  },
+  {
+    "accession": "0001193125-26-442714",
+    "cik": "1835632",
+    "company": "Marvell Technology, Inc.",
+    "period_end": "2026-10-31",
+    "period_label": "quarter ended 31 October 2026 (preliminary revenue only)",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty (null). The release gives only 'consistent with guidance' and a range of plus or minus 2%, with no number."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty (null); the release does not give it."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left net income empty (null); the release does not give it."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The watcher left diluted EPS empty (null); the release does not give it."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "No figure was extracted and none was wrong; the release gives no results figure. The 10-Q for the quarter ended 31 October is still to come."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "All four figures are empty, but the release gives no number for any of them, so nothing is missing."
+      },
+      "S3": {
+        "score": 3,
+        "reason": "The management quotes are usable, but the analyst must find Marvell's guidance midpoint elsewhere, as the extract holds no revenue figure."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "diluted_eps": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "cannot check",
+        "reason": "A claim about a shift to optical connectivity in AI infrastructure is about the market, not Marvell's results, and the filed figures could not be read today."
+      },
+      "M2": {
+        "verdict": "cannot check",
+        "reason": "The release gives no revenue number, only 'consistent with guidance' and a range of plus or minus 2%, and the filed figures could not be read today, so the numbers cannot test it."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "Only the release's own words can test it: revenue is said to be in line with guidance, with the midpoint kept and the range narrowed from plus or minus 5% to 2%."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "outlook",
+        "claim": "The CEO says the planned Lumentum combination answers a shift towards optical connectivity in AI infrastructure.",
+        "quote": "AI infrastructure is undergoing a fundamental architectural shift toward optical connectivity, creating an opportunity that comes along once in a generation,",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "The release says preliminary third-quarter revenue is in line with guidance, with a narrower range.",
+        "quote": "Marvell today reported preliminary revenue for the third quarter of fiscal 2027 consistent with previously provided guidance, maintaining the midpoint of its prior guidance while narrowing the expected range to plus or minus 2%",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "positive",
+      "reason": "The CEO calls the planned combination a once-in-a-generation opportunity."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-11-12T06:38:26+08:00"
   }
 ]
