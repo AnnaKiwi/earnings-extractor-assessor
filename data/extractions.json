@@ -705,5 +705,131 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/98362/000009836226000055/tkrq32026exhibit991.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/98362/000009836226000055/0000098362-26-000055-index.htm",
     "saved_at": "2026-11-11T06:13:21+08:00"
+  },
+  {
+    "cik": "1368458",
+    "company": "Sally Beauty Holdings, Inc.",
+    "accession": "0001368458-26-000018",
+    "release_date": "2026-11-10",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 952.527,
+        "unit": "USD millions",
+        "quote": "Net sales $ 952,527 $ 947,075 0.6 %"
+      },
+      "operating_income": {
+        "value": 92.192,
+        "unit": "USD millions",
+        "quote": "Operating earnings 92,192 79,944 15.3 %"
+      },
+      "net_income": {
+        "value": 57.744,
+        "unit": "USD millions",
+        "quote": "Net earnings $ 57,744 $ 49,931 15.6 %"
+      },
+      "diluted_eps": {
+        "value": 0.6,
+        "unit": "USD per share",
+        "quote": "Diluted $0.60 $0.49 22.4 %"
+      }
+    },
+    "guidance": {
+      "text": "For the first quarter of fiscal 2027, the company expects consolidated net sales of $945 million to $955 million.",
+      "quote": "First Quarter Guidance Consolidated Net Sales $945 million to $955 million"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO says the company finished fiscal 2026 with positive momentum, growing fourth-quarter sales, operating earnings and adjusted EPS.",
+        "quote": "We finished fiscal 2026 with positive momentum, delivering fourth quarter sales, operating earnings and double-digit adjusted EPS growth"
+      },
+      {
+        "id": "M2",
+        "topic": "other",
+        "claim": "The CEO says the company generated $323 million of cash from operations, strengthened its balance sheet and returned capital to shareholders.",
+        "quote": "We generated $323 million of cash from operations, strengthened our balance sheet, and returned significant capital to shareholders while continuing to invest in our future."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CEO says that in fiscal 2027 the company will focus on scaling its growth platforms, customer engagement and profitable growth.",
+        "quote": "As we enter fiscal 2027, we are focused on scaling the capabilities and growth platforms we have built, deepening customer engagement, and generating profitable growth"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO speaks of positive momentum, sales and earnings growth and strong cash generation, and names no headwind."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1368458-0001368458-26-000018.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1368458/000136845826000018/exhibit991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1368458/000136845826000018/0001368458-26-000018-index.htm",
+    "saved_at": "2026-11-13T06:08:23+08:00"
+  },
+  {
+    "cik": "1825079",
+    "company": "Velo3D, Inc.",
+    "accession": "0001193125-26-455425",
+    "release_date": "2026-11-10",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 20.45,
+        "unit": "USD millions",
+        "quote": "Total Revenue | 20,450 | 13,640"
+      },
+      "operating_income": {
+        "value": -17.288,
+        "unit": "USD millions",
+        "quote": "Loss from operations | (17,288 | ) | (9,993 | )"
+      },
+      "net_income": {
+        "value": -16.692,
+        "unit": "USD millions",
+        "quote": "Net loss | $ | (16,692 | ) | $ | (11,188 | )"
+      },
+      "diluted_eps": {
+        "value": -0.52,
+        "unit": "USD per share",
+        "quote": "Basic and Diluted | $ | (0.52 | ) | $ | (0.65 | )"
+      }
+    },
+    "guidance": {
+      "text": "The company reaffirms full-year 2026 revenue guidance of $65 million to $75 million.",
+      "quote": "Revenue in the range of $65 million to $75 million."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says revenue rose about 50% year on year to $20.5 million and new bookings of $28.9 million exceeded revenue.",
+        "quote": "We delivered solid third quarter results, with revenue increasing approximately 50% year-over-year to $20.5 million and new bookings reaching $28.9 million, exceeding revenue for the quarter."
+      },
+      {
+        "id": "M2",
+        "topic": "costs",
+        "claim": "The CEO says operating expenses rose because of investment in people, technology and operations to bring Forge 1 online.",
+        "quote": "Operating expenses increased as we continued investing in the people, technology and operational capabilities needed to bring our Livermore Production Campus, Forge 1, online and prepare for expanded production."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CEO says a substantial part of planned capital spending is moving into 2027, and calls these investments essential to scaling.",
+        "quote": "While a substantial portion of our planned capital expenditures is shifting into 2027, we believe these investments in infrastructure, talent and manufacturing capabilities are essential to scaling our operations"
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "The CEO calls the results solid and cites demand, but notes higher operating expenses and capital spending moving into 2027."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1825079-0001193125-26-455425.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1825079/000119312526455425/velo-ex99_1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1825079/000119312526455425/0001193125-26-455425-index.htm",
+    "saved_at": "2026-11-13T06:08:23+08:00"
   }
 ]
