@@ -12160,5 +12160,815 @@
     "filing_found": false,
     "recheck": true,
     "assessed_at": "2026-11-12T06:38:26+08:00"
+  },
+  {
+    "accession": "0001214659-26-013228",
+    "cik": "1104038",
+    "company": "OpenWorld, Inc.",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty (null). The release gives a range of $6.9 million to $7.2 million, so it could have been saved."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty (null); the release does not give it."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The quote 'GAAP net loss | Approx. $(10.0)' is in the release and holds -10 USD millions, but the filed figures could not be read today (data.sec.gov answered 403 through the network proxy)."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The watcher left diluted EPS empty (null); the release does not give it."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "The one extracted figure, net loss -10 USD millions, has its quote in the release and holds the number. The 10-Q check is still to come."
+      },
+      "S2": {
+        "score": 4,
+        "reason": "Revenue is empty although the release gives a range of $6.9 million to $7.2 million; the other empty figures are not given. Guidance is null."
+      },
+      "S3": {
+        "score": 3,
+        "reason": "Net loss is usable, but the analyst must open the release for the revenue range and the one-off costs of about 11.9 million."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": "-10 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403))."
+      },
+      "diluted_eps": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "cannot check",
+        "reason": "The filed figures could not be read today, so no quarter can be compared. The release gives a net loss of about 10.0 million, including about 11.9 million of one-off costs, and adjusted EBITDA of 1.7 to 2.0 million."
+      },
+      "M2": {
+        "verdict": "cannot check",
+        "reason": "An outlook on real-world-asset adoption is about the future, and the filed figures could not be read today, so the numbers cannot test the trend."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "On the release's own figures: the net loss of about 10.0 million includes about 11.9 million of one-off costs, and adjusted EBITDA is 1.7 to 2.0 million, which fits a positive tone."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": -10.0,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says the estimated third-quarter results show the strength of the business model.",
+        "quote": "our estimated third-quarter financial results demonstrate the strength of OpenWorld’s business model as we move forward as a public company",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO expects consistent, significant growth and adoption of real-world assets.",
+        "quote": "we are confident that the Company has the right strategies to benefit from our expectation of consistent significant growth and adoption of RWAs globally",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "positive",
+      "reason": "The CEO calls the estimates a strong indication of progress and says he is confident about growth."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-11-13T06:37:41+08:00"
+  },
+  {
+    "accession": "0001193125-26-442714",
+    "cik": "1835632",
+    "company": "Marvell Technology, Inc.",
+    "period_end": "2026-10-31",
+    "period_label": "quarter ended 31 October 2026 (preliminary revenue only)",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty (null). The release gives only 'consistent with guidance' and a range of plus or minus 2%, with no number."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty (null); the release does not give it."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left net income empty (null); the release does not give it."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The watcher left diluted EPS empty (null); the release does not give it."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "No figure was extracted and none was wrong; the release gives no results figure. The 10-Q for the quarter ended 31 October is still to come."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "All four figures are empty, but the release gives no number for any of them, so nothing is missing."
+      },
+      "S3": {
+        "score": 3,
+        "reason": "The management quotes are usable, but the analyst must find Marvell's guidance midpoint elsewhere, as the extract holds no revenue figure."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "diluted_eps": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "cannot check",
+        "reason": "A claim about a shift to optical connectivity in AI infrastructure is about the market, not Marvell's results, and the filed figures could not be read today."
+      },
+      "M2": {
+        "verdict": "cannot check",
+        "reason": "The release gives no revenue number, only 'consistent with guidance' and a range of plus or minus 2%, and the filed figures could not be read today, so the numbers cannot test it."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "Only the release's own words can test it: revenue is said to be in line with guidance, with the midpoint kept and the range narrowed to plus or minus 2%."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "outlook",
+        "claim": "The CEO says the planned Lumentum combination answers a shift towards optical connectivity in AI infrastructure.",
+        "quote": "AI infrastructure is undergoing a fundamental architectural shift toward optical connectivity, creating an opportunity that comes along once in a generation,",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "The release says preliminary third-quarter revenue is in line with guidance, with a narrower range.",
+        "quote": "Marvell today reported preliminary revenue for the third quarter of fiscal 2027 consistent with previously provided guidance, maintaining the midpoint of its prior guidance while narrowing the expected range to plus or minus 2%",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "positive",
+      "reason": "The CEO calls the planned combination a once-in-a-generation opportunity."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-11-13T06:37:41+08:00"
+  },
+  {
+    "accession": "0001368458-26-000018",
+    "cik": "1368458",
+    "company": "Sally Beauty Holdings, Inc.",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Net sales $ 952,527' is in the release and holds 952.527 USD millions, but the filed figures could not be read today (data.sec.gov answered 403)."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Operating earnings 92,192' is in the release and holds 92.192 USD millions, but the filed figures could not be read today (data.sec.gov answered 403)."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Net earnings $ 57,744' is in the release and holds 57.744 USD millions, but the filed figures could not be read today (data.sec.gov answered 403)."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Diluted $0.60' is in the release and holds 0.60 USD, but the filed figures could not be read today (data.sec.gov answered 403)."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "All four quotes are in the release and hold their numbers (952.527, 92.192, 57.744, 0.60). The SEC check is still to come; as a fiscal year end, the figures will come in the 10-K."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "All four figures are there, and the first-quarter guidance of $945 million to $955 million of net sales is saved with its quote."
+      },
+      "S3": {
+        "score": 5,
+        "reason": "The extract can be used as it stands: four figures with quotes, the guidance and three management claims with exact words."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": "952.527 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "operating_income": {
+        "extracted": "92.192 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "net_income": {
+        "extracted": "57.744 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "diluted_eps": {
+        "extracted": "0.60 USD per share",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "matches",
+        "reason": "On the release's tables: Q4 net sales 952,527 against 947,075 (+0.6%), operating earnings 92,192 against 79,944 (+15.3%), adjusted diluted EPS 0.62 (+13%); GAAP diluted EPS 0.60 against 0.49 (+22.4%)."
+      },
+      "M2": {
+        "verdict": "matches",
+        "reason": "On the release's own figures: full-year cash flow from operations $323 million, $80 million of term loan repaid and $113 million of shares bought back. These are full-year figures, not the quarter's; the fundamentals cannot test them."
+      },
+      "M3": {
+        "verdict": "matches",
+        "reason": "An outlook, consistent with the latest trend: Q4 operating earnings rose 15.3% on sales up 0.6%, and FY27 guidance is net sales $3.77-3.81 billion against $3.73 billion and adjusted operating earnings $334-347 million."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "On the release's tables, operating earnings rose 15.3%, net earnings 15.6% and diluted EPS 22.4% on a year ago. Sales grew only 0.6% and gross margin fell 30 basis points, which the tone leaves out."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": 952.527,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": 92.192,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": 57.744,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": 0.6,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": 9.678675775069893,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": 6.062190363107818,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO says the company finished fiscal 2026 with positive momentum, growing fourth-quarter sales, operating earnings and adjusted EPS.",
+        "quote": "We finished fiscal 2026 with positive momentum, delivering fourth quarter sales, operating earnings and double-digit adjusted EPS growth",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "other",
+        "claim": "The CEO says the company generated $323 million of cash from operations, strengthened its balance sheet and returned capital to shareholders.",
+        "quote": "We generated $323 million of cash from operations, strengthened our balance sheet, and returned significant capital to shareholders while continuing to invest in our future.",
+        "quote_found": true
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CEO says that in fiscal 2027 the company will focus on scaling its growth platforms, customer engagement and profitable growth.",
+        "quote": "As we enter fiscal 2027, we are focused on scaling the capabilities and growth platforms we have built, deepening customer engagement, and generating profitable growth",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "positive",
+      "reason": "The CEO speaks of positive momentum, sales and earnings growth and strong cash generation, and names no headwind."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": false,
+    "assessed_at": "2026-11-13T06:37:41+08:00"
+  },
+  {
+    "accession": "0001193125-26-455425",
+    "cik": "1825079",
+    "company": "Velo3D, Inc.",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Total Revenue | 20,450' is in the release and holds 20.45 USD millions, but the filed figures could not be read today (data.sec.gov answered 403)."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Loss from operations | (17,288' is in the release and holds -17.288 USD millions, but the filed figures could not be read today (data.sec.gov answered 403)."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Net loss | $ | (16,692' is in the release and holds -16.692 USD millions, but the filed figures could not be read today (data.sec.gov answered 403)."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Basic and Diluted | $ | (0.52' is in the release and holds -0.52 USD, but the filed figures could not be read today (data.sec.gov answered 403)."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "All four quotes are in the release and hold their numbers (20.45, -17.288, -16.692, -0.52). The 10-Q check is still to come."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "All four figures are there, and the reaffirmed full-year 2026 revenue guidance of $65 million to $75 million is saved with its quote."
+      },
+      "S3": {
+        "score": 5,
+        "reason": "The extract can be used as it stands: four figures with quotes, the revenue guidance and three management claims with exact words."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": "20.45 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "operating_income": {
+        "extracted": "-17.288 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "net_income": {
+        "extracted": "-16.692 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "diluted_eps": {
+        "extracted": "-0.52 USD per share",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "matches",
+        "reason": "On the release's tables: revenue 20,450 against 13,640 a year ago, up 49.9%, and new bookings of $28.9 million exceed the $20.5 million of revenue."
+      },
+      "M2": {
+        "verdict": "matches",
+        "reason": "On the release's tables: total operating expenses 22,706 against 10,426 a year ago, and the operating loss widened to 17,288 from 9,993; operating margin is -84.5%."
+      },
+      "M3": {
+        "verdict": "matches",
+        "reason": "An outlook, consistent with the release: 2026 capital spending guidance is cut to $10-20 million from $40-50 million, the shift into 2027. Revenue rose 49.9% while the operating loss widened to 17,288 from 9,993."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "Balanced fits the release's tables: revenue up 49.9% and gross margin 26.5% against 3.2%, but the operating loss widened to 17,288 from 9,993 and the net loss to 16,692 from 11,188."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": 20.45,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": -17.288,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": -16.692,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": -0.52,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": -84.53789731051346,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": -81.62347188264059,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says revenue rose about 50% year on year to $20.5 million and new bookings of $28.9 million exceeded revenue.",
+        "quote": "We delivered solid third quarter results, with revenue increasing approximately 50% year-over-year to $20.5 million and new bookings reaching $28.9 million, exceeding revenue for the quarter.",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "costs",
+        "claim": "The CEO says operating expenses rose because of investment in people, technology and operations to bring Forge 1 online.",
+        "quote": "Operating expenses increased as we continued investing in the people, technology and operational capabilities needed to bring our Livermore Production Campus, Forge 1, online and prepare for expanded production.",
+        "quote_found": true
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CEO says a substantial part of planned capital spending is moving into 2027, and calls these investments essential to scaling.",
+        "quote": "While a substantial portion of our planned capital expenditures is shifting into 2027, we believe these investments in infrastructure, talent and manufacturing capabilities are essential to scaling our operations",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "balanced",
+      "reason": "The CEO calls the results solid and cites demand, but notes higher operating expenses and capital spending moving into 2027."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": false,
+    "assessed_at": "2026-11-13T06:37:41+08:00"
   }
 ]

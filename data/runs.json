@@ -3368,5 +3368,120 @@
       }
     ],
     "offline": false
+  },
+  {
+    "run_at": "2026-11-13T06:37:41+08:00",
+    "agent": "assessor",
+    "brief": "briefs/2026-11-13-assess.md",
+    "brief_checked": true,
+    "sources": {
+      "ok": 0,
+      "total": 4,
+      "failures": [
+        {
+          "name": "OpenWorld, Inc. company facts",
+          "detail": "blocked_by_routine_network: data.sec.gov (the network proxy answered 403)"
+        },
+        {
+          "name": "Marvell Technology, Inc. company facts",
+          "detail": "blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run"
+        },
+        {
+          "name": "Sally Beauty Holdings, Inc. company facts",
+          "detail": "blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run"
+        },
+        {
+          "name": "Velo3D, Inc. company facts",
+          "detail": "blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run"
+        }
+      ]
+    },
+    "counts": {
+      "to_assess": 4,
+      "checked": 4,
+      "rechecks": 2,
+      "confirmed": 0,
+      "mismatch": 0,
+      "cannot_check": 16
+    },
+    "companies": [
+      {
+        "cik": "1104038",
+        "company": "OpenWorld, Inc.",
+        "accession": "0001214659-26-013228",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 0,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 4,
+          "S3": 3
+        }
+      },
+      {
+        "cik": "1835632",
+        "company": "Marvell Technology, Inc.",
+        "accession": "0001193125-26-442714",
+        "period_label": "quarter ended 31 October 2026 (preliminary revenue only)",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 0,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 3
+        }
+      },
+      {
+        "cik": "1368458",
+        "company": "Sally Beauty Holdings, Inc.",
+        "accession": "0001368458-26-000018",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": false,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 3,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      },
+      {
+        "cik": "1825079",
+        "company": "Velo3D, Inc.",
+        "accession": "0001193125-26-455425",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": false,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 3,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      }
+    ],
+    "headline": "Checked 4 extractions: 0 figures confirmed, 0 mismatches, 16 cannot check.",
+    "radar_check": {
+      "watch_run_at": "2026-11-13T06:08:23+08:00",
+      "watch_brief": "briefs/2026-11-13-watch.md",
+      "brief_says": 165,
+      "saved_for_run": 165,
+      "match": true
+    },
+    "offline": false
   }
 ]
