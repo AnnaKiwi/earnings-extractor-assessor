@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-11-14T09:42:15+08:00",
+  "fetched_at": "2026-11-15T08:59:30+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
     "start": "2026-11-11",
-    "end": "2026-11-13",
+    "end": "2026-11-14",
     "first_run": false,
     "note": null
   },
@@ -14,39 +14,39 @@
   "sources": [
     {
       "name": "Earnings radar, page 1",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-11&enddt=2026-11-13",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-11&enddt=2026-11-14",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 380 ms"
+      "detail": "HTTP 200, 60 KB in 83 ms"
     },
     {
       "name": "Earnings radar, page 2",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-11&enddt=2026-11-13&from=100",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-11&enddt=2026-11-14&from=100",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 253 ms"
+      "detail": "HTTP 200, 60 KB in 69 ms"
     },
     {
       "name": "Earnings radar, page 3",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-11&enddt=2026-11-13&from=200",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-11&enddt=2026-11-14&from=200",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 302 ms"
+      "detail": "HTTP 200, 60 KB in 81 ms"
     },
     {
       "name": "Earnings radar, page 4",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-11&enddt=2026-11-13&from=300",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-11&enddt=2026-11-14&from=300",
       "ok": true,
-      "detail": "HTTP 200, 55 KB in 273 ms"
+      "detail": "HTTP 200, 55 KB in 82 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 148 KB in 120 ms"
+      "detail": "HTTP 200, 148 KB in 22 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 17 ms"
+      "detail": "HTTP 200, 156 KB in 20 ms"
     },
     {
       "name": "Meta Platforms filings list",
@@ -55,94 +55,94 @@
       "detail": "HTTP 200, 154 KB in 19 ms"
     },
     {
-      "name": "Southland Holdings, Inc. filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/1883814/000182912626012322/index.json",
+      "name": "EDGEWELL PERSONAL CARE Co filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1096752/000162828026073042/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 76 ms"
+      "detail": "HTTP 200, 1 KB in 40 ms"
     },
     {
-      "name": "Southland Holdings, Inc. press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1883814/000182912626012322/southland_ex99-1.htm",
+      "name": "EDGEWELL PERSONAL CARE Co press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1096752/000162828026073042/q4fy26-epcexhibit991.htm",
       "ok": true,
-      "detail": "HTTP 200, 147 KB in 36 ms"
+      "detail": "HTTP 200, 580 KB in 45 ms"
     },
     {
-      "name": "Immix Biopharma, Inc. filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/1873835/000149315226051402/index.json",
+      "name": "Kodiak Sciences Inc. filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 233 ms"
+      "detail": "HTTP 200, 1 KB in 29 ms"
     },
     {
-      "name": "Immix Biopharma, Inc. press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1873835/000149315226051402/ex99-1.htm",
+      "name": "Kodiak Sciences Inc. press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526458248/kod-ex99_1.htm",
       "ok": true,
-      "detail": "HTTP 200, 45 KB in 28 ms"
+      "detail": "HTTP 200, 153 KB in 55 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,174 KB in 29 ms"
+      "detail": "HTTP 200, 3,174 KB in 107 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,447 KB in 26 ms"
+      "detail": "HTTP 200, 4,447 KB in 117 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,745 KB in 38 ms"
+      "detail": "HTTP 200, 2,745 KB in 71 ms"
     },
     {
-      "name": "Southland Holdings, Inc. company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001883814.json",
+      "name": "EDGEWELL PERSONAL CARE Co company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001096752.json",
       "ok": true,
-      "detail": "HTTP 200, 839 KB in 263 ms"
+      "detail": "HTTP 200, 3,799 KB in 147 ms"
     },
     {
-      "name": "Immix Biopharma, Inc. company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001873835.json",
+      "name": "Kodiak Sciences Inc. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001468748.json",
       "ok": true,
-      "detail": "HTTP 200, 724 KB in 114 ms"
+      "detail": "HTTP 200, 1,097 KB in 83 ms"
     },
     {
       "name": "OpenWorld, Inc. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001104038.json",
       "ok": true,
-      "detail": "HTTP 200, 2,273 KB in 524 ms"
+      "detail": "HTTP 200, 2,273 KB in 317 ms"
     },
     {
       "name": "Marvell Technology, Inc. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
       "ok": true,
-      "detail": "HTTP 200, 1,298 KB in 506 ms"
+      "detail": "HTTP 200, 1,298 KB in 102 ms"
     },
     {
       "name": "Sally Beauty Holdings, Inc. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001368458.json",
       "ok": true,
-      "detail": "HTTP 200, 2,933 KB in 28 ms"
+      "detail": "HTTP 200, 2,933 KB in 71 ms"
     },
     {
       "name": "Velo3D, Inc. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001825079.json",
       "ok": true,
-      "detail": "HTTP 200, 1,189 KB in 219 ms"
+      "detail": "HTTP 200, 1,189 KB in 190 ms"
     }
   ],
   "files": [
     "data.sec.gov_api_xbrl_companyfacts_CIK0001018724.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001096752.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001104038.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001326801.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001368458.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001468748.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001652044.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001825079.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001835632.json",
-    "data.sec.gov_api_xbrl_companyfacts_CIK0001873835.json",
-    "data.sec.gov_api_xbrl_companyfacts_CIK0001883814.json",
     "data.sec.gov_submissions_CIK0001018724.json",
     "data.sec.gov_submissions_CIK0001326801.json",
     "data.sec.gov_submissions_CIK0001652044.json",
@@ -150,9 +150,9 @@
     "efts.sec.gov_search-index_from100.json",
     "efts.sec.gov_search-index_from200.json",
     "efts.sec.gov_search-index_from300.json",
-    "www.sec.gov_Archives_edgar_data_1873835_000149315226051402_ex99-1.htm",
-    "www.sec.gov_Archives_edgar_data_1873835_000149315226051402_index.json",
-    "www.sec.gov_Archives_edgar_data_1883814_000182912626012322_index.json",
-    "www.sec.gov_Archives_edgar_data_1883814_000182912626012322_southland_ex99-1.htm"
+    "www.sec.gov_Archives_edgar_data_1096752_000162828026073042_index.json",
+    "www.sec.gov_Archives_edgar_data_1096752_000162828026073042_q4fy26-epcexhibit991.htm",
+    "www.sec.gov_Archives_edgar_data_1468748_000119312526458248_index.json",
+    "www.sec.gov_Archives_edgar_data_1468748_000119312526458248_kod-ex99_1.htm"
   ]
 }
