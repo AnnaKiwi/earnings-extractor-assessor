@@ -831,5 +831,124 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/1825079/000119312526455425/velo-ex99_1.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/1825079/000119312526455425/0001193125-26-455425-index.htm",
     "saved_at": "2026-11-13T06:08:23+08:00"
+  },
+  {
+    "cik": "109177",
+    "company": "Spectrum Brands Holdings, Inc.",
+    "accession": "0000109177-26-000042",
+    "release_date": "2026-11-12",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 713.2,
+        "unit": "USD millions",
+        "quote": "Net sales | $ | 713.2 | $ | 733.5 | $ | 2,852.4"
+      },
+      "operating_income": {
+        "value": 24.4,
+        "unit": "USD millions",
+        "quote": "Operating income | 24.4 | 29.4 | 110.9"
+      },
+      "net_income": {
+        "value": 25.8,
+        "unit": "USD millions",
+        "quote": "Net income attributable to controlling interest | $ | 25.8"
+      },
+      "diluted_eps": {
+        "value": 1.11,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per share | $ | 1.11"
+      }
+    },
+    "guidance": {
+      "text": "The company expects flat to low single digit growth in reported net sales in fiscal 2027.",
+      "quote": "The Company expects to deliver flat to low single digit growth in reported net sales in fiscal 2027."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says Global Pet Care and Home & Garden both returned to top-line growth in fiscal 2026.",
+        "quote": "We are pleased with our fiscal 2026 results, with Global Pet Care and Home & Garden both returning to top-line growth, and our key brands continuing to outperform the market across both businesses."
+      },
+      {
+        "id": "M2",
+        "topic": "margins",
+        "claim": "The CEO says Home & Personal Care delivered strong margin expansion despite continued top-line pressure.",
+        "quote": "In Home & Personal Care, while top-line pressures persisted as expected, the team delivered strong margin expansion, a direct reflection of disciplined execution and a clear focus on profitability."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CEO expects fiscal 2027 net sales and adjusted EBITDA to be flat to up low single digits, excluding the tariff refund benefit.",
+        "quote": "We are entering fiscal 2027 with momentum, and we expect net sales and adjusted EBITDA to both be flat to up low single digits, normalizing for the tariff refund benefit received this year"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO says he is pleased with the year, cites margin expansion and says the company enters fiscal 2027 with momentum."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/109177-0000109177-26-000042.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000042/earningsreleaseexhibit991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000042/0000109177-26-000042-index.htm",
+    "saved_at": "2026-11-18T06:07:41+08:00"
+  },
+  {
+    "cik": "1761918",
+    "company": "Erasca, Inc.",
+    "accession": "0001193125-26-458350",
+    "release_date": "2026-11-12",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": null,
+      "operating_income": {
+        "value": -59.521,
+        "unit": "USD millions",
+        "quote": "Loss from operations | (59,521"
+      },
+      "net_income": {
+        "value": -51.331,
+        "unit": "USD millions",
+        "quote": "Net loss | $ | (51,331"
+      },
+      "diluted_eps": {
+        "value": -0.15,
+        "unit": "USD per share",
+        "quote": "Net loss per share, basic and diluted | $ | (0.15"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "other",
+        "claim": "The CEO says the company is advancing towards three potentially registration-enabling trials in pancreatic and lung cancers.",
+        "quote": "We are rapidly advancing toward three potentially registration-enabling trials in pancreatic and lung cancers."
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO says a strengthened balance sheet positions the company to execute its near-term milestones.",
+        "quote": "With a strengthened balance sheet and experienced R&D leadership, we believe that we are positioned to execute our near-term milestones and advance programs addressing high unmet needs for patients with RAS-mutant cancers."
+      },
+      {
+        "id": "M3",
+        "topic": "costs",
+        "claim": "R&D expenses rose to $47.2 million from $22.5 million a year earlier, driven by clinical trials and other activities.",
+        "quote": "R&D expenses were $47.2 million for the quarter ended September 30, 2026, compared to $22.5 million for the quarter ended September 30, 2025."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO speaks of rapid progress, Fast Track Designation and a strengthened balance sheet, and mentions no setback."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1761918-0001193125-26-458350.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526458350/eras-ex99_1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526458350/0001193125-26-458350-index.htm",
+    "saved_at": "2026-11-18T06:07:41+08:00"
   }
 ]
