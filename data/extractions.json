@@ -950,5 +950,119 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526458350/eras-ex99_1.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/1761918/000119312526458350/0001193125-26-458350-index.htm",
     "saved_at": "2026-11-18T06:07:41+08:00"
+  },
+  {
+    "cik": "1446159",
+    "company": "AXE COMPUTE INC.",
+    "accession": "0001171843-26-007509",
+    "release_date": "2026-11-17",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 7.243043,
+        "unit": "USD millions",
+        "quote": "Revenue | $7,243,043"
+      },
+      "operating_income": {
+        "value": 6.825897,
+        "unit": "USD millions",
+        "quote": "Total operating income (loss) | 6,825,897"
+      },
+      "net_income": {
+        "value": 11.503607,
+        "unit": "USD millions",
+        "quote": "Net income (loss) | $11,503,607"
+      },
+      "diluted_eps": {
+        "value": 0.52,
+        "unit": "USD per share",
+        "quote": "Net income (loss) per share, diluted | $0.52"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says revenue grew 125% on the previous quarter to $7.2 million, and $313 million went into GPU infrastructure, mainly funded by customer prepayments.",
+        "quote": "Revenue grew 125% over the previous quarter to $7.2 million, and we put $313 million to work building GPU infrastructure, primarily funded by our customers' prepayments"
+      },
+      {
+        "id": "M2",
+        "topic": "profit",
+        "claim": "The quarter's results include $15.0 million of gains, mostly non-cash fair value changes on digital assets and on the DataMeds securities.",
+        "quote": "Results include $15.0 million of gains, primarily non-cash fair value changes, on digital assets and on the DataMeds securities received in the Helomics sale."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CEO says the first Build cluster is targeted for deployment in the fourth quarter, with the July contracts moving into deployment in Q4 2026 and into 2027.",
+        "quote": "Our first Build cluster is targeted for deployment in the fourth quarter, and the July contracts move into deployment across the United States and Europe in Q4 of 2026 and into 2027."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO speaks of strong value delivered, 125% revenue growth and more than $3 billion in signed contracts, and says the job now is delivery."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1446159-0001171843-26-007509.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1446159/000117184326007509/exh_991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1446159/000117184326007509/0001171843-26-007509-index.htm",
+    "saved_at": "2026-11-19T06:08:07+08:00"
+  },
+  {
+    "cik": "1476765",
+    "company": "GOLUB CAPITAL BDC, Inc.",
+    "accession": "0001476765-26-000084",
+    "release_date": "2026-11-17",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": {
+        "value": 20.067,
+        "unit": "USD millions",
+        "quote": "Net Increase (Decrease) in Net Assets Resulting from Operations $96,290 $65,246 ($46,796) $57,009 $20,067"
+      },
+      "diluted_eps": null
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "Management says net investment income was stable on the previous quarter, at $0.33 of adjusted net investment income per share.",
+        "quote": "Net investment income stable quarter-over-quarter, $0.33 of adjusted net investment income per share"
+      },
+      {
+        "id": "M2",
+        "topic": "other",
+        "claim": "Net asset value fell by $0.25 to $14.00 per share from 30 June 2026.",
+        "quote": "Net asset value of $14.00 per share, a decrease of $0.25 per share from $14.25 as of June 30, 2026"
+      },
+      {
+        "id": "M3",
+        "topic": "costs",
+        "claim": "Management says borrowing costs are increasing but remain attractive.",
+        "quote": "Borrowing costs increasing, but remain attractive"
+      },
+      {
+        "id": "M4",
+        "topic": "other",
+        "claim": "Management says non-accrual investments remain low at 1.6% of total investments at fair value.",
+        "quote": "Non-accrual investments remain low at 1.6% of total investments at fair value (3.3% at cost)"
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "Management calls income stable and credit quality solid, but notes a lower NAV, rising borrowing costs and two new non-accrual investments."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1476765-0001476765-26-000084.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1476765/000147676526000084/gbdcfy2026q4epfinal.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1476765/000147676526000084/0001476765-26-000084-index.htm",
+    "saved_at": "2026-11-19T06:08:07+08:00"
   }
 ]
