@@ -1189,5 +1189,118 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/109198/000010919826000058/tjxq3fy27earningspressrele.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/109198/000010919826000058/0000109198-26-000058-index.htm",
     "saved_at": "2026-11-20T06:08:20+08:00"
+  },
+  {
+    "cik": "319654",
+    "company": "PERMIAN BASIN ROYALTY TRUST",
+    "accession": "0001193125-26-468019",
+    "release_date": "2026-11-19",
+    "period_end": "2026-10-31",
+    "period_label": "month of October 2026 (November distribution)",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": null,
+      "diluted_eps": null
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The Trustee says the distribution fell from the previous month, mainly because October included a one-off settlement payment and Texas Royalty oil volumes were lower.",
+        "quote": "This month’s distribution decreased compared to the previous month due primarily to the final settlement payment in the amount of $1,125,000 being received from Blackbeard Operating which was included in the October distribution"
+      },
+      {
+        "id": "M2",
+        "topic": "costs",
+        "claim": "The Trustee says Waddell Ranch costs exceeded gross proceeds for October, so those properties added nothing to the distribution.",
+        "quote": "The distribution does not include proceeds from the Waddell Ranch properties, as total production costs (“Production Costs”) exceeded gross proceeds (“Gross Proceeds”) for the month of October"
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The Trustee says world market conditions still affect prices and that their effect on future distributions is hard to predict.",
+        "quote": "The worldwide market conditions continue to affect the pricing for domestic production. It is difficult to predict what effect these conditions will have on future distributions."
+      }
+    ],
+    "tone": {
+      "label": "cautious",
+      "reason": "The Trustee reports a lower distribution, a continuing excess cost position at Waddell Ranch and says future distributions are hard to predict."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/319654-0001193125-26-468019.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/319654/000119312526468019/pbt-ex99_1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/319654/000119312526468019/0001193125-26-468019-index.htm",
+    "saved_at": "2026-11-21T06:08:01+08:00"
+  },
+  {
+    "cik": "39911",
+    "company": "GAP INC",
+    "accession": "0001628280-26-075088",
+    "release_date": "2026-11-19",
+    "period_end": "2026-10-31",
+    "period_label": "quarter ended 31 October 2026",
+    "figures": {
+      "revenue": {
+        "value": 4011,
+        "unit": "USD millions",
+        "quote": "Net sales | $ | 4,011"
+      },
+      "operating_income": {
+        "value": 396,
+        "unit": "USD millions",
+        "quote": "Operating income | 396"
+      },
+      "net_income": {
+        "value": 311,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 311"
+      },
+      "diluted_eps": {
+        "value": 0.86,
+        "unit": "USD per share",
+        "quote": "Earnings per share - diluted | $ | 0.86"
+      }
+    },
+    "guidance": {
+      "text": "Gap now expects full-year fiscal 2026 net sales to be roughly flat, down from its prior outlook of up 1% to 1.5% year-over-year.",
+      "quote": "Net sales | Roughly flat | Up 1% to 1.5% year-over-year | $15.4 billion"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says net sales grew 2% in the quarter, profit beat expectations and the company gained market share.",
+        "quote": "In the third quarter, we grew net sales 2%, exceeded our profit expectations and gained market share"
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO says demand softened in October and early November in warmer weather, but trends have improved as temperatures cooled.",
+        "quote": "While demand softened in October and early November, amidst warmer weather, we are encouraged by the more recent improvement in trends as temperatures have cooled."
+      },
+      {
+        "id": "M3",
+        "topic": "profit",
+        "claim": "The release says operating income was $396 million with an operating margin of 9.9%.",
+        "quote": "Operating income was $396 million and operating margin was 9.9%"
+      },
+      {
+        "id": "M4",
+        "topic": "outlook",
+        "claim": "The company says its full-year outlook reflects a slower than expected start to the fourth quarter, followed by recent improvement.",
+        "quote": "The Company's updated full-year outlook factors in quarter-to-date performance reflecting a slower than expected start to the fourth quarter, followed by recent improvement as weather has normalized."
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "The CEO cites sales growth, a profit beat and share gains, but notes softer demand in October and early November and the full-year sales outlook is lowered."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/39911-0001628280-26-075088.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/39911/000162828026075088/q32026eprexhibit991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/39911/000162828026075088/0001628280-26-075088-index.htm",
+    "saved_at": "2026-11-21T06:08:01+08:00"
   }
 ]
