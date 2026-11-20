@@ -4851,5 +4851,120 @@
       }
     ],
     "offline": false
+  },
+  {
+    "run_at": "2026-11-21T06:37:33+08:00",
+    "agent": "assessor",
+    "brief": "briefs/2026-11-21-assess.md",
+    "brief_checked": true,
+    "sources": {
+      "ok": 0,
+      "total": 4,
+      "failures": [
+        {
+          "name": "Marvell Technology, Inc. company facts",
+          "detail": "blocked_by_routine_network: data.sec.gov (the network proxy answered 403)"
+        },
+        {
+          "name": "TJX COMPANIES INC /DE/ company facts",
+          "detail": "blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run"
+        },
+        {
+          "name": "PERMIAN BASIN ROYALTY TRUST company facts",
+          "detail": "blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run"
+        },
+        {
+          "name": "GAP INC company facts",
+          "detail": "blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run"
+        }
+      ]
+    },
+    "counts": {
+      "to_assess": 4,
+      "checked": 4,
+      "rechecks": 2,
+      "confirmed": 0,
+      "mismatch": 0,
+      "cannot_check": 16
+    },
+    "companies": [
+      {
+        "cik": "1835632",
+        "company": "Marvell Technology, Inc.",
+        "accession": "0001193125-26-442714",
+        "period_label": "quarter ended 31 October 2026 (preliminary revenue only)",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 0,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 3
+        }
+      },
+      {
+        "cik": "109198",
+        "company": "TJX COMPANIES INC /DE/",
+        "accession": "0000109198-26-000058",
+        "period_label": "quarter ended 31 October 2026",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 2,
+        "claims_mismatch": 1,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      },
+      {
+        "cik": "319654",
+        "company": "PERMIAN BASIN ROYALTY TRUST",
+        "accession": "0001193125-26-468019",
+        "period_label": "month of October 2026 (November distribution)",
+        "recheck": false,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 3,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 3
+        }
+      },
+      {
+        "cik": "39911",
+        "company": "GAP INC",
+        "accession": "0001628280-26-075088",
+        "period_label": "quarter ended 31 October 2026",
+        "recheck": false,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 4,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      }
+    ],
+    "headline": "Checked 4 extractions: 0 figures confirmed, 0 mismatches, 16 cannot check.",
+    "radar_check": {
+      "watch_run_at": "2026-11-21T06:08:01+08:00",
+      "watch_brief": "briefs/2026-11-21-watch.md",
+      "brief_says": 38,
+      "saved_for_run": 38,
+      "match": true
+    },
+    "offline": false
   }
 ]

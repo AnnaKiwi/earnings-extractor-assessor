@@ -19100,5 +19100,837 @@
     "filing_found": false,
     "recheck": false,
     "assessed_at": "2026-11-20T06:37:23+08:00"
+  },
+  {
+    "accession": "0001193125-26-442714",
+    "cik": "1835632",
+    "company": "Marvell Technology, Inc.",
+    "period_end": "2026-10-31",
+    "period_label": "quarter ended 31 October 2026 (preliminary revenue only)",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty (null); the release says only 'consistent with previously provided guidance', plus or minus 2%, with no number. The 10-Q for the quarter ended 31 October is not yet filed or could not be read."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty (null); the release does not give it, and no 10-Q figure could be read today."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left net income empty (null); the release does not give it, and no 10-Q figure could be read today."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The watcher left diluted EPS empty (null); the release does not give it, and no 10-Q figure could be read today."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "No figure was extracted and none was wrong; the release gives no results figure. The 10-Q for the quarter ended 31 October could not be checked today, so that check is still to come."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "All four figures are empty, but the release gives no number for any of them, so nothing is missing."
+      },
+      "S3": {
+        "score": 3,
+        "reason": "The management quotes are usable, but the analyst must find Marvell's guidance midpoint elsewhere, as the extract holds no revenue figure."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "diluted_eps": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "cannot check",
+        "reason": "A claim about a shift to optical connectivity in AI infrastructure is about the market, not Marvell's results; the release gives no figure and no quarterly figure is filed to test it."
+      },
+      "M2": {
+        "verdict": "cannot check",
+        "reason": "The release gives no revenue number, only 'consistent with previously provided guidance' and a range of plus or minus 2%, and no three-month revenue for the quarter could be read, so the numbers cannot test it."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "Only the release's own words can test it: revenue is said to be in line with guidance, with the midpoint kept and the range narrowed to plus or minus 2%. No filed figure contradicts it."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "outlook",
+        "claim": "The CEO says the planned Lumentum combination answers a shift towards optical connectivity in AI infrastructure.",
+        "quote": "AI infrastructure is undergoing a fundamental architectural shift toward optical connectivity, creating an opportunity that comes along once in a generation,",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "The release says preliminary third-quarter revenue is in line with guidance, with a narrower range.",
+        "quote": "Marvell today reported preliminary revenue for the third quarter of fiscal 2027 consistent with previously provided guidance, maintaining the midpoint of its prior guidance while narrowing the expected range to plus or minus 2%",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "positive",
+      "reason": "The CEO calls the planned combination a once-in-a-generation opportunity."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-11-21T06:37:33+08:00"
+  },
+  {
+    "accession": "0000109198-26-000058",
+    "cik": "109198",
+    "company": "TJX COMPANIES INC /DE/",
+    "period_end": "2026-10-31",
+    "period_label": "quarter ended 31 October 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Net sales | $ | 15,952' is in the release and holds 15,952 USD millions, but the 10-Q figure could not be read today: data.sec.gov was blocked (403) and sec_cache/ was too old to use."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty (null); the release gives no operating income line; its nearest figure is income before income taxes of 2,070. No 10-Q figure could be read today."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Net income | $ | 1,543' is in the release and holds 1,543 USD millions, but the 10-Q figure could not be read today: data.sec.gov was blocked (403) and sec_cache/ was too old to use."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Diluted earnings per share | $ | 1.39' is in the release and holds 1.39 USD, but the 10-Q figure could not be read today: data.sec.gov was blocked (403) and sec_cache/ was too old to use."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "Every quote is in the release and holds its number (15,952, 1,543, 1.39). The 10-Q figures could not be read today, so the 10-Q check is still to come."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "Operating income is empty, but the release gives no operating income line, so that is not a fault. The Q4 guidance of comparable sales up 2% to 3% is saved with its quote."
+      },
+      "S3": {
+        "score": 5,
+        "reason": "Usable as it stands: three figures with exact quotes and the Q4 guidance. The analyst may note that EPS of 1.39 includes a net tariff refund benefit; adjusted pretax margin is 12.5%."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": "15,952 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": "1,543 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "diluted_eps": {
+        "extracted": "1.39 USD per share",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "matches",
+        "reason": "The company's own plan cannot be tested, but the release's figures grew: net income rose 7.0% to 1,543 and diluted EPS 8.6% to 1.39 on a year ago; net sales rose 5.5% to 15,952 (release table). Pretax margin rose to 13.0% from 12.7%."
+      },
+      "M2": {
+        "verdict": "matches",
+        "reason": "The release's comparable sales table gives TJX +4%, with HomeGoods, TJX Canada and TJX International stronger and Marmaxx +2%; net sales rose 5.5% to 15,952 from 15,117 (release table). No filed quarterly revenue could be read."
+      },
+      "M3": {
+        "verdict": "does not match",
+        "reason": "An outlook claim: the release's own Q4 plan of comparable sales up 2% to 3% is below Q3's 4%, so the guidance points to slower comp growth, not faster momentum. Q3 net sales rose 5.5% on a year ago (release)."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "On the release's figures, net sales rose 5.5%, net income 7.0% and diluted EPS 8.6% on a year ago, and pretax margin rose 0.3 pts to 13.0%. Adjusted pretax margin fell 0.2 pts to 12.5%, which the tone does not stress."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": 15952,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": 1543,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": 1.39,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": 9.672768304914744,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO says sales, profitability and earnings per share all beat the company's expectations.",
+        "quote": "Overall sales, profitability, and earnings per share all exceeded our expectations.",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "The CEO says comparable sales grew 4%, led by HomeGoods, TJX Canada and TJX International, with better sales at Marmaxx.",
+        "quote": "Consolidated comparable sales grew 4%, driven by continued strength at HomeGoods, TJX Canada, and TJX International, and we saw improved sales at Marmaxx.",
+        "quote_found": true
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CEO says warm weather has held back some demand but expects sales momentum to speed up over the holidays.",
+        "quote": "while we believe the unseasonably warm weather in the U.S. and Canada has been holding back consumer demand in some categories, we are expecting sales momentum to accelerate throughout the holiday season.",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "positive",
+      "reason": "The CEO is \"very pleased\", says results beat expectations and is confident about the holidays, while noting warm weather held back some demand."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-11-21T06:37:33+08:00"
+  },
+  {
+    "accession": "0001193125-26-468019",
+    "cik": "319654",
+    "company": "PERMIAN BASIN ROYALTY TRUST",
+    "period_end": "2026-10-31",
+    "period_label": "month of October 2026 (November distribution)",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty (null); this is a monthly distribution notice and gives no quarterly revenue. No filed figure could be read today."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty (null); the distribution notice does not give it, and no filed figure could be read today."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left net income empty (null); the distribution notice does not give it, and no filed figure could be read today."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The watcher left diluted EPS empty (null); the notice gives a distribution of $0.020923 per unit, not EPS, and no filed figure could be read today."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "No figure was extracted and none was wrong; the notice gives none of the four quarterly figures. All three quotes are in the release."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "All four figures are empty, but a monthly royalty trust notice gives none of them, so nothing is missing. It gives no guidance."
+      },
+      "S3": {
+        "score": 3,
+        "reason": "The claims and tone are usable, but the extract does not hold the distribution of $0.020923 per unit or $975,217.79, so the analyst must open the release for the key number."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "diluted_eps": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "matches",
+        "reason": "On the release's own table: Texas Royalty net oil fell to 12,844 bbls from 13,459 and gas price to $10.67 from $15.15, while gas volume rose to 7,519 Mcf and oil price to $86.30. The prior month's distribution is not given, so the fall itself is untested."
+      },
+      "M2": {
+        "verdict": "matches",
+        "reason": "On the release's own figures: the Texas Royalty contribution of $1,129,178 less G&A of $153,960 gives the $975,217.79 distributed, so Waddell Ranch added nothing."
+      },
+      "M3": {
+        "verdict": "matches",
+        "reason": "An outlook claim that makes no forecast; it is consistent with the release's prices, which moved sharply on the month: oil $86.30 from $79.67 per bbl, gas $10.67 from $15.15 per Mcf."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "The release bears it out: $0.020923 per unit, with no Waddell Ranch proceeds and a continuing excess cost position; only the Texas Royalty contribution of $1,129,178 was paid out, less G&A of $153,960."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The Trustee says the distribution fell from the previous month, mainly because October included a one-off settlement payment and Texas Royalty oil volumes were lower.",
+        "quote": "This month’s distribution decreased compared to the previous month due primarily to the final settlement payment in the amount of $1,125,000 being received from Blackbeard Operating which was included in the October distribution",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "costs",
+        "claim": "The Trustee says Waddell Ranch costs exceeded gross proceeds for October, so those properties added nothing to the distribution.",
+        "quote": "The distribution does not include proceeds from the Waddell Ranch properties, as total production costs (“Production Costs”) exceeded gross proceeds (“Gross Proceeds”) for the month of October",
+        "quote_found": true
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The Trustee says world market conditions still affect prices and that their effect on future distributions is hard to predict.",
+        "quote": "The worldwide market conditions continue to affect the pricing for domestic production. It is difficult to predict what effect these conditions will have on future distributions.",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "cautious",
+      "reason": "The Trustee reports a lower distribution, a continuing excess cost position at Waddell Ranch and says future distributions are hard to predict."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": false,
+    "assessed_at": "2026-11-21T06:37:33+08:00"
+  },
+  {
+    "accession": "0001628280-26-075088",
+    "cik": "39911",
+    "company": "GAP INC",
+    "period_end": "2026-10-31",
+    "period_label": "quarter ended 31 October 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Net sales | $ | 4,011' is in the release and holds 4,011 USD millions, but the 10-Q figure could not be read today: data.sec.gov was blocked (403) and sec_cache/ was too old to use."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Operating income | 396' is in the release and holds 396 USD millions, but the 10-Q figure could not be read today: data.sec.gov was blocked (403) and sec_cache/ was too old to use."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Net income | $ | 311' is in the release and holds 311 USD millions, but the 10-Q figure could not be read today: data.sec.gov was blocked (403) and sec_cache/ was too old to use."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "The quote 'Earnings per share - diluted | $ | 0.86' is in the release and holds 0.86 USD, but the 10-Q figure could not be read today: data.sec.gov was blocked (403) and sec_cache/ was too old to use."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "Every quote is in the release and holds its number (4,011, 396, 311, 0.86). The 10-Q figures could not be read today, so the 10-Q check is still to come."
+      },
+      "S2": {
+        "score": 5,
+        "reason": "All four figures are there with quotes, and the updated full-year net sales guidance is saved with its quote."
+      },
+      "S3": {
+        "score": 5,
+        "reason": "Usable as it stands. The analyst may note that EPS of 0.86 includes the IEEPA tariff recovery; adjusted EPS is 0.82 and adjusted operating income 393."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": "4,011 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "operating_income": {
+        "extracted": "396 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "net_income": {
+        "extracted": "311 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      },
+      "diluted_eps": {
+        "extracted": "0.86 USD per share",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403); not asked again in this run)."
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "matches",
+        "reason": "On the release's table, net sales rose 1.8% to 4,011 from 3,942 (2% rounded) and operating income 18.6% to 396 from 334. The profit beat and market share cannot be tested. No filed quarterly figure could be read."
+      },
+      "M2": {
+        "verdict": "matches",
+        "reason": "An outlook claim, consistent with the release: the Q4 plan of net sales flat to down 1% is below Q3's 1.8% growth, which fits softer demand. The recent improvement cannot be tested by the numbers."
+      },
+      "M3": {
+        "verdict": "matches",
+        "reason": "The release table gives operating income of 396 on net sales of 4,011, a 9.9% margin, up from 334 and 8.5% a year ago. Without the $3m tariff recovery, adjusted operating income is 393 and margin 9.8%."
+      },
+      "M4": {
+        "verdict": "matches",
+        "reason": "An outlook claim, consistent with the trend: full-year net sales are now seen roughly flat, from up 1% to 1.5%; nine-month sales rose 0.3% to 11,159 from 11,130, and Q4 is planned flat to down 1% (release)."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "On the release's table, operating income rose 18.6% and diluted EPS 38.7% to 0.86 (adjusted 0.82), but net sales rose only 1.8%, comparable sales were flat and the full-year sales outlook was cut to roughly flat."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": 4011,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": 396,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": 311,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": 0.86,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": 9.87284966342558,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": 7.75367738718524,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says net sales grew 2% in the quarter, profit beat expectations and the company gained market share.",
+        "quote": "In the third quarter, we grew net sales 2%, exceeded our profit expectations and gained market share",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO says demand softened in October and early November in warmer weather, but trends have improved as temperatures cooled.",
+        "quote": "While demand softened in October and early November, amidst warmer weather, we are encouraged by the more recent improvement in trends as temperatures have cooled.",
+        "quote_found": true
+      },
+      {
+        "id": "M3",
+        "topic": "profit",
+        "claim": "The release says operating income was $396 million with an operating margin of 9.9%.",
+        "quote": "Operating income was $396 million and operating margin was 9.9%",
+        "quote_found": true
+      },
+      {
+        "id": "M4",
+        "topic": "outlook",
+        "claim": "The company says its full-year outlook reflects a slower than expected start to the fourth quarter, followed by recent improvement.",
+        "quote": "The Company's updated full-year outlook factors in quarter-to-date performance reflecting a slower than expected start to the fourth quarter, followed by recent improvement as weather has normalized.",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "balanced",
+      "reason": "The CEO cites sales growth, a profit beat and share gains, but notes softer demand in October and early November and the full-year sales outlook is lowered."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": false,
+    "assessed_at": "2026-11-21T06:37:33+08:00"
   }
 ]
