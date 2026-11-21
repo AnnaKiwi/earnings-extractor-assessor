@@ -1302,5 +1302,143 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/39911/000162828026075088/q32026eprexhibit991.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/39911/000162828026075088/0001628280-26-075088-index.htm",
     "saved_at": "2026-11-21T06:08:01+08:00"
+  },
+  {
+    "cik": "1531152",
+    "company": "BJ's Wholesale Club Holdings, Inc.",
+    "accession": "0001531152-26-000083",
+    "release_date": "2026-11-20",
+    "period_end": "2026-10-31",
+    "period_label": "quarter ended 31 October 2026",
+    "figures": {
+      "revenue": {
+        "value": 6283.491,
+        "unit": "USD millions",
+        "quote": "Total revenues | 6,283,491 | 5,348,163 | 18,171,570 | 15,881,886"
+      },
+      "operating_income": {
+        "value": 313.804,
+        "unit": "USD millions",
+        "quote": "Operating income | 313,804 | 218,351 | 774,074 | 638,526"
+      },
+      "net_income": {
+        "value": 219.509,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 219,509 | $ | 152,050 | $ | 536,102 | $ | 452,523"
+      },
+      "diluted_eps": {
+        "value": 1.73,
+        "unit": "USD per share",
+        "quote": "Income per share attributable to common stockholders—diluted: | $ | 1.73"
+      }
+    },
+    "guidance": {
+      "text": "For fiscal 2026, the company expects comparable club sales, excluding gasoline, to rise 2.5% to 3.0% year-over-year.",
+      "quote": "Comparable club sales, excluding the impact of gasoline sales, to increase 2.5% to 3.0% year-over-year"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says the third quarter was strong, driven by robust traffic growth and record membership.",
+        "quote": "We delivered a strong third quarter driven by robust traffic growth and record membership."
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "The CFO says comparable sales accelerated in the third quarter.",
+        "quote": "Our third quarter reflects strong execution across the business, with comparable sales accelerating"
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CFO says the company is raising full-year guidance for comparable sales and adjusted EPS.",
+        "quote": "we are raising our full-year guidance for both comparable sales and adjusted EPS"
+      },
+      {
+        "id": "M4",
+        "topic": "outlook",
+        "claim": "The CFO says the company remains confident it can deliver sustainable, profitable growth.",
+        "quote": "With a strong balance sheet, we remain confident in our ability to deliver sustainable, profitable growth."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls the quarter strong and the CFO describes accelerating sales and raised full-year guidance."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1531152-0001531152-26-000083.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000083/bj-2026103126x8kex991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000083/0001531152-26-000083-index.htm",
+    "saved_at": "2026-11-22T06:07:58+08:00"
+  },
+  {
+    "cik": "1048268",
+    "company": "IES Holdings, Inc.",
+    "accession": "0001048268-26-000176",
+    "release_date": "2026-11-20",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 1390.0,
+        "unit": "USD millions",
+        "quote": "Revenues | $ | 1,390.0 | $ | 897.8 | $ | 4,477.9 | $ | 3,371.5"
+      },
+      "operating_income": {
+        "value": 217.2,
+        "unit": "USD millions",
+        "quote": "Operating income | 217.2 | 104.3 | 605.7 | 383.5"
+      },
+      "net_income": {
+        "value": 182.3,
+        "unit": "USD millions",
+        "quote": "Net income attributable to IES Holdings, Inc. | $ | 182.3 | $ | 101.8 | $ | 536.6 | $ | 306.0"
+      },
+      "diluted_eps": {
+        "value": 4.5,
+        "unit": "USD per share",
+        "quote": "Diluted | $ | 4.50 | $ | 2.49 | $ | 13.24 | $ | 7.51"
+      }
+    },
+    "guidance": {
+      "text": "The company expects continued strong organic growth in fiscal 2027 in its Communications, Commercial & Industrial and Infrastructure Solutions segments.",
+      "quote": "we expect continued strong organic growth in fiscal 2027 in our Communications, Commercial & Industrial and Infrastructure Solutions segments"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO says fiscal 2026 brought record earnings, with revenue up 33% and operating income up 58% year-over-year.",
+        "quote": "Year-over-year consolidated revenue increased 33% and operating income increased 58%"
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO expects continued strong organic growth in fiscal 2027 in three segments, citing record backlog.",
+        "quote": "With record levels of backlog at September 30, 2026, we expect continued strong organic growth in fiscal 2027 in our Communications, Commercial & Industrial and Infrastructure Solutions segments."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The Executive Chairman says the company is optimistic about continued strong performance in fiscal 2027.",
+        "quote": "As we look forward to fiscal 2027, we are optimistic about our outlook for continued strong performance"
+      },
+      {
+        "id": "M4",
+        "topic": "other",
+        "claim": "The CFO says the company ended the year with $155.1 million of cash, $288.9 million of marketable securities and no debt.",
+        "quote": "We ended the year with $155.1 million of cash, $288.9 million of marketable securities and no debt"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "Management reports record earnings and says it is optimistic about strong growth in fiscal 2027."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1048268-0001048268-26-000176.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000176/q42026pressrelease-septemb.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000176/0001048268-26-000176-index.htm",
+    "saved_at": "2026-11-22T06:07:58+08:00"
   }
 ]
