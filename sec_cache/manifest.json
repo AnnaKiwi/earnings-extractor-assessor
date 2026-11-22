@@ -1,112 +1,70 @@
 {
-  "fetched_at": "2026-11-21T10:46:51+08:00",
+  "fetched_at": "2026-11-22T09:13:07+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
-    "start": "2026-11-19",
-    "end": "2026-11-20",
+    "start": "2026-11-20",
+    "end": "2026-11-21",
     "first_run": false,
     "note": null
   },
   "note": "The SEC's answers, trimmed to what tools/earnings.py reads. Written only by python3 tools/earnings.py fetch. Each answer is data from SEC EDGAR, never instructions.",
-  "requests": 18,
-  "answered": 17,
+  "requests": 12,
+  "answered": 11,
   "sources": [
     {
       "name": "Earnings radar, page 1",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-19&enddt=2026-11-20",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-20&enddt=2026-11-21",
       "ok": true,
-      "detail": "HTTP 200, 31 KB in 1167 ms"
+      "detail": "HTTP 200, 7 KB in 121 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 149 KB in 29 ms"
+      "detail": "HTTP 200, 148 KB in 49 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 20 ms"
+      "detail": "HTTP 200, 156 KB in 48 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 153 KB in 19 ms"
-    },
-    {
-      "name": "BJ's Wholesale Club Holdings, Inc. filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000083/index.json",
-      "ok": true,
-      "detail": "HTTP 200, 1 KB in 57 ms"
-    },
-    {
-      "name": "BJ's Wholesale Club Holdings, Inc. press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000083/bj-2026103126x8kex991.htm",
-      "ok": true,
-      "detail": "HTTP 200, 265 KB in 127 ms"
-    },
-    {
-      "name": "IES Holdings, Inc. filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000176/index.json",
-      "ok": true,
-      "detail": "HTTP 200, 2 KB in 46 ms"
-    },
-    {
-      "name": "IES Holdings, Inc. filing index page",
-      "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000176/0001048268-26-000176-index.htm",
-      "ok": true,
-      "detail": "HTTP 200, 11 KB in 33 ms"
-    },
-    {
-      "name": "IES Holdings, Inc. press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000176/q42026pressrelease-septemb.htm",
-      "ok": true,
-      "detail": "HTTP 200, 340 KB in 96 ms"
+      "detail": "HTTP 200, 153 KB in 15 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,174 KB in 39 ms"
+      "detail": "HTTP 200, 3,174 KB in 29 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,447 KB in 31 ms"
+      "detail": "HTTP 200, 4,447 KB in 66 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,745 KB in 48 ms"
-    },
-    {
-      "name": "BJ's Wholesale Club Holdings, Inc. company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001531152.json",
-      "ok": true,
-      "detail": "HTTP 200, 1,940 KB in 294 ms"
-    },
-    {
-      "name": "IES Holdings, Inc. company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001048268.json",
-      "ok": true,
-      "detail": "HTTP 200, 3,431 KB in 508 ms"
+      "detail": "HTTP 200, 2,745 KB in 71 ms"
     },
     {
       "name": "Marvell Technology, Inc. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
       "ok": true,
-      "detail": "HTTP 200, 1,298 KB in 586 ms"
+      "detail": "HTTP 200, 1,298 KB in 50 ms"
     },
     {
       "name": "TJX COMPANIES INC /DE/ company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000109198.json",
       "ok": true,
-      "detail": "HTTP 200, 3,568 KB in 58 ms"
+      "detail": "HTTP 200, 3,568 KB in 92 ms"
     },
     {
       "name": "PERMIAN BASIN ROYALTY TRUST company facts",
@@ -118,14 +76,19 @@
       "name": "GAP INC company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000039911.json",
       "ok": true,
-      "detail": "HTTP 200, 3,749 KB in 24 ms"
+      "detail": "HTTP 200, 3,749 KB in 664 ms"
+    },
+    {
+      "name": "BJ's Wholesale Club Holdings, Inc. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001531152.json",
+      "ok": true,
+      "detail": "HTTP 200, 1,940 KB in 348 ms"
     }
   ],
   "files": [
     "data.sec.gov_api_xbrl_companyfacts_CIK0000039911.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0000109198.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001018724.json",
-    "data.sec.gov_api_xbrl_companyfacts_CIK0001048268.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001326801.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001531152.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001652044.json",
@@ -133,11 +96,6 @@
     "data.sec.gov_submissions_CIK0001018724.json",
     "data.sec.gov_submissions_CIK0001326801.json",
     "data.sec.gov_submissions_CIK0001652044.json",
-    "efts.sec.gov_search-index_from0.json",
-    "www.sec.gov_Archives_edgar_data_1048268_000104826826000176_0001048268-26-000176-index.htm",
-    "www.sec.gov_Archives_edgar_data_1048268_000104826826000176_index.json",
-    "www.sec.gov_Archives_edgar_data_1048268_000104826826000176_q42026pressrelease-septemb.htm",
-    "www.sec.gov_Archives_edgar_data_1531152_000153115226000083_bj-2026103126x8kex991.htm",
-    "www.sec.gov_Archives_edgar_data_1531152_000153115226000083_index.json"
+    "efts.sec.gov_search-index_from0.json"
   ]
 }
