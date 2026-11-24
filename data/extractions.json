@@ -1440,5 +1440,67 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000176/q42026pressrelease-septemb.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000176/0001048268-26-000176-index.htm",
     "saved_at": "2026-11-22T06:07:58+08:00"
+  },
+  {
+    "cik": "18255",
+    "company": "CATO CORP",
+    "accession": "0001562762-26-000134",
+    "release_date": "2026-11-23",
+    "period_end": "2026-10-31",
+    "period_label": "quarter ended 31 October 2026",
+    "figures": {
+      "revenue": {
+        "value": 149.469,
+        "unit": "USD millions",
+        "quote": "Total revenues 149,469"
+      },
+      "operating_income": null,
+      "net_income": {
+        "value": -10.354,
+        "unit": "USD millions",
+        "quote": "Net Income $ (10,354)"
+      },
+      "diluted_eps": {
+        "value": -0.54,
+        "unit": "USD per share",
+        "quote": "Diluted Earnings Per Share $ (0.54)"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says the sales trend improved on the second quarter, but inflation and higher fuel costs continue to reduce customers' discretionary income.",
+        "quote": "Although our overall sales trend improved compared to the second quarter, the effect of persistent inflation and higher fuel costs continues to erode our customers’ discretionary income"
+      },
+      {
+        "id": "M2",
+        "topic": "margins",
+        "claim": "The CEO says the continued fall in sales led to more markdowns, which hurt gross margins.",
+        "quote": "The continued negative sales trend caused us to take more markdowns which impacted our gross margins."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The CEO expects pressure on customers' discretionary spending to continue into the fourth quarter and beyond.",
+        "quote": "We believe the pressure on our customers’ discretionary spending will continue into the fourth quarter and the foreseeable future."
+      },
+      {
+        "id": "M4",
+        "topic": "costs",
+        "claim": "The CEO says the company will keep managing expenses and inventory in a difficult economy.",
+        "quote": "We will continue to manage our expenses and inventory levels as we navigate through this difficult economic environment."
+      }
+    ],
+    "tone": {
+      "label": "cautious",
+      "reason": "The CEO stresses inflation, fuel costs, markdowns and a difficult economy, and expects pressure on spending to continue."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/18255-0001562762-26-000134.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/18255/000156276226000134/exhibit99.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/18255/000156276226000134/0001562762-26-000134-index.htm",
+    "saved_at": "2026-11-25T06:08:23+08:00"
   }
 ]
