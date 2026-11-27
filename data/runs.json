@@ -6348,5 +6348,125 @@
       }
     ],
     "offline": false
+  },
+  {
+    "run_at": "2026-11-28T06:37:52+08:00",
+    "agent": "assessor",
+    "brief": "briefs/2026-11-28-assess.md",
+    "brief_checked": true,
+    "sources": {
+      "ok": 4,
+      "total": 5,
+      "failures": [
+        {
+          "name": "PERMIAN BASIN ROYALTY TRUST company facts",
+          "detail": "blocked_by_routine_network: data.sec.gov (the network proxy answered 403)"
+        }
+      ]
+    },
+    "counts": {
+      "to_assess": 5,
+      "checked": 5,
+      "rechecks": 5,
+      "confirmed": 0,
+      "mismatch": 0,
+      "cannot_check": 20
+    },
+    "companies": [
+      {
+        "cik": "1835632",
+        "company": "Marvell Technology, Inc.",
+        "accession": "0001193125-26-442714",
+        "period_label": "quarter ended 31 October 2026 (preliminary revenue only)",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 0,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 3
+        }
+      },
+      {
+        "cik": "109198",
+        "company": "TJX COMPANIES INC /DE/",
+        "accession": "0000109198-26-000058",
+        "period_label": "quarter ended 31 October 2026",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 2,
+        "claims_mismatch": 1,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      },
+      {
+        "cik": "319654",
+        "company": "PERMIAN BASIN ROYALTY TRUST",
+        "accession": "0001193125-26-468019",
+        "period_label": "month of October 2026 (November distribution)",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 3,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 3
+        }
+      },
+      {
+        "cik": "885639",
+        "company": "KOHLS Corp",
+        "accession": "0001193125-26-473133",
+        "period_label": "quarter ended 31 October 2026",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 3,
+        "claims_mismatch": 1,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 4
+        }
+      },
+      {
+        "cik": "315189",
+        "company": "DEERE & CO",
+        "accession": "0001104659-26-131741",
+        "period_label": "quarter ended 1 November 2026",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 1,
+        "claims_mismatch": 1,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      }
+    ],
+    "headline": "Checked 5 extractions: 0 figures confirmed, 0 mismatches, 20 cannot check.",
+    "radar_check": {
+      "watch_run_at": "2026-11-28T06:07:54+08:00",
+      "watch_brief": "briefs/2026-11-28-watch.md",
+      "brief_says": 0,
+      "saved_for_run": 0,
+      "match": true
+    },
+    "offline": false
   }
 ]
